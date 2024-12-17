@@ -15,30 +15,21 @@ COPY --from=builder /app/target/*.jar app.jar
 
 EXPOSE 8080
 
-ARG spring.application.name
-ARG spring.data.mongodb.database
-ARG spring.data.mongodb.uri
+ARG DRIP_SERVER_NAME
+ARG MONGODB_NAME
+ARG MONGODB_URI
+ARG JWT_SECRET
 
-ARG spring.servlet.multipart.max-file-size=16MB
-ARG spring.servlet.multipart.max-request-size=100MB
-ARG server.tomcat.max-swallow-size=100MB
+ARG ADMIN_USERNAME
+ARG ADMIN_PASSWORD
+ARG CLIENT_URL
+ARG SERVER_URL
+ARG PAYPAL_CLIENT_ID
+ARG PAYPAL_CLIENT_SECRET
 
-ARG drip-app.jwt-secret
-
-ARG drip-app.jwt-expiration=86400000
-ARG drip-app.admin-username
-ARG drip-app.admin-password
-ARG drip-app.client-origin
-ARG drip-app.server-origin
-ARG drip-app.paypal-client-id
-ARG drip-app.paypal-client-secret
-
-ARG spring.mail.host
-ARG spring.mail.port=587
-ARG spring.mail.username
-ARG spring.mail.password
-ARG spring.mail.properties.mail.smtp.auth=true
-ARG spring.mail.properties.mail.smtp.starttls.enable=true
-ARG spring.mail.properties.mail.smtp.ssl.trust
+ARG MAIL_HOST
+ARG MAIL_PORT
+ARG MAIL_USERNAME
+ARG MAIL_PASSWORD
 
 CMD ["java", "-jar", "app.jar"]
