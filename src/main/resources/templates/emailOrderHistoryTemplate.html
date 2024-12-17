@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order History!</title>
+    <style>
+        .body-wrapper {
+            border-radius: 1rem;
+            background-color: #0f0f0f;
+            color: #f0f1f4;
+        }
+        h1 {
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-family: sans-serif;
+            padding-top: 1rem;
+            padding-left: 1rem;
+        }
+        h2 {
+            padding-left: 1rem;
+        }
+        .table-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border: 0px solid;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 0.5rem;
+            text-align: center;
+            border: 1px solid #f0f1f4;
+            max-width: 200px;
+        }
+        th {
+            padding: 1rem;
+        }
+        table img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+        .bg {
+            position: relative;
+            display: flex;
+            background-color: #171717;
+            color: #f0f1f4;
+            background-image: url('localhost:4200/assets/details-bg.jpg');
+            background-image: url('https://img.freepik.com/free-vector/purple-geometric-background_1406-5.jpg');
+            background-size: cover;
+            background-blend-mode: overlay;
+            margin: 1rem;
+            padding: 1rem;
+            gap: 1rem;
+            border-radius: 1rem;
+            overflow: hidden;
+            font-family: sans-serif;
+
+            border-color: #88fcc4;
+            border-image: linear-gradient(15deg, #88fcc4, transparent 10%, transparent 40%, #88fcc4, transparent 60%, transparent 85%, #88fcc4, transparent 100%);
+            border-width: 1px;
+            border-style: solid;
+            border-image-slice: 1;
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            flex-grow: 1;
+        }
+        .content {
+            width: 100%;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+        a {
+            color: #b5bbc9 !important;
+        }
+        p {
+            color: #f0f1f4 !important;
+        }
+        .padding {
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-wrapper">
+        <h1>Order History</h1>
+        <div class="bg">
+            <div class="container">
+                <div class="content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Product name</th>
+                                <th>Price</th>
+                                <th>Image</th>
+                                <th>Extra Info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${tableRows}
+                        </tbody>
+                    </table>
+                    <p>This is the history of every successful order you have made according to our database.</p>
+                    <p>This email was sent to you on behalf of the Drip Dynasty website as a user request. If you weren't the one who requested this email then please ignore it.</p>
+                    <br/>
+                    <p>And thank you for checking us out! You can find more of my works here: <a href="https://fabokarpad.hu">https://fabokarpad.hu</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="padding"></div>
+    </div>
+</body>
+</html>
