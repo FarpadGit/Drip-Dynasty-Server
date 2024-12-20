@@ -109,8 +109,7 @@ public class EmailService {
             message.setContent(htmlTemplate, "text/html; charset=utf-8");
 
             mailSender.send(message);
-        } catch (MessagingException | IOException err) {
-            err.printStackTrace();
+        } catch (MessagingException | IOException ignored) {
         }
     }
 
