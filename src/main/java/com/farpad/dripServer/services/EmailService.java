@@ -95,7 +95,7 @@ public class EmailService {
                         "<td>" + o + "</td>" +
                         "<td>" + p.getName() + "</td>" +
                         "<td>" + nf.format(p.getPrice()) + "</td>" +
-                        "<td><img src='" + p.getPrefixedFileNames(serverRootPath).get(0) + "' width='120px' height='120px'/></td>" +
+                        "<td><img alt='' src='" + p.getPrefixedFileNames(serverRootPath).get(0) + "' width='120px' height='120px'/></td>" +
                         "<td>" + p.getExtra() + "</td>" +
                         "</tr>";
                 htmlTableRows.append(tableRow);
