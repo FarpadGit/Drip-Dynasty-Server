@@ -92,6 +92,11 @@ public class ProductsController {
     if(imagesToDelete != null && !imagesToDelete.isEmpty()) {
       List<String> deletedImages = new ArrayList<>();
 
+      imagesToDelete.replaceAll(img -> {
+        int i = img.indexOf("images/");
+        return img.substring(i);
+      });
+
       imagesToDelete.forEach(imagePath-> {
         imageService.deleteImageFromStorage(Product.imageUploadDirectory + id, Path.of(imagePath).getFileName().toString());
         deletedImages.add(imagePath);
