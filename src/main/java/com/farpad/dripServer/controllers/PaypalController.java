@@ -72,10 +72,4 @@ public class PaypalController {
 
         return new ResponseEntity<>(newOrder.getId(), HttpStatus.CREATED);
     }
-
-    @GetMapping("/get-bearer")
-    /* testing only */
-    public ResponseEntity<String> getBearer(){
-        return new ResponseEntity<>(paypalService.getBearer(), HttpStatus.OK);
-    }
 }
