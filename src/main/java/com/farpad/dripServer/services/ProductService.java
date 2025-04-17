@@ -27,18 +27,19 @@ public class ProductService {
         if(page == null) return new PageImpl<>(productRepository.findAll());
 
         Pageable pageable = PageRequest.of(page,20);
-        return productRepository.findAll(pageable);
+        return productRepository.findAllActive(pageable);
     }
 
     public Page<Product> getProducts(String category, Integer page) {
         if(category == null) return getProducts(page);
 
+        if(page == null) page = 0;
         Pageable pageable = PageRequest.of(page,20);
-        return productRepository.findAllByCategory(category, pageable);
+        return productRepository.findAllActiveByCategory(category, pageable);
     }
 
     public List<Product> getNewestProducts() {
-        return productRepository.findTop10ByOrderByCreatedAtDesc();
+        return productRepository.findTop10ByIsAvailableForPurchaseOrderByCreatedAtDesc(true);
     }
 
     public List<Product> getMostPopularProducts() {

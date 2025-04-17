@@ -17,13 +17,17 @@ public interface ProductRepository extends MongoRepository<Product, String> {
     @Query("{orders: {$all: [?0]}}")
     public Product findByOrderId(String orderId);
 
-    @Query("{categories: {$all: [?0]}}")
-    public Page<Product> findAllByCategory(String category, Pageable pageable);
+    @Query("{isAvailableForPurchase: true}")
+    public Page<Product> findAllActive(Pageable pageable);
 
-    public List<Product> findTop10ByOrderByCreatedAtDesc();
+    @Query("{categories: {$all: [?0]}, isAvailableForPurchase: true}")
+    public Page<Product> findAllActiveByCategory(String category, Pageable pageable);
+
+    public List<Product> findTop10ByIsAvailableForPurchaseOrderByCreatedAtDesc(Boolean isAvailableForPurchase);
 
     @Aggregation(pipeline = {
             "{ $addFields: { orders_count: {$size: { \"$ifNull\": [ \"$orders\", [] ] } } }}",
+            "{ $match: { isAvailableForPurchase: true } }",
             "{ $sort: { orders_count: -1 } }",
             "{ $limit: 10 }"
     })
