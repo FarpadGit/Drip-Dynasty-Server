@@ -23,12 +23,12 @@ public class OrderService {
         return orderRepository.findById(id).orElse(null);
     }
 
-    public Order createOrder(String productId, String customerId, Integer pricePaid) {
+    public Order createOrder(String productId, String customerId, String productName, Integer pricePaid, List<Order.OrderedVariant> variants) {
         try {
             String uuid = UUID.randomUUID().toString();
 
             Date now = new Date();
-            Order newOrder = new Order(uuid, productId, customerId, pricePaid, now, now);
+            Order newOrder = new Order(uuid, productId, customerId, productName, pricePaid, variants, now, now);
             orderRepository.save(newOrder);
             return newOrder;
         } catch (Exception e) {

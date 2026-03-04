@@ -29,7 +29,9 @@ public class ImageService {
     // Save image to local directory
     public String saveImageToStorage(String uploadDirectory, MultipartFile imageFile) {
         try {
-            String safeFileName = imageFile.getOriginalFilename().replace(' ', '_');
+            String safeFileName = imageFile.getOriginalFilename();
+            if(safeFileName == null) safeFileName = "";
+            else safeFileName = safeFileName.replace(' ', '_');
             String uniqueFileName = UUID.randomUUID() + "_" + safeFileName;
 
             Path directoryPath = Path.of(uploadDirectory);

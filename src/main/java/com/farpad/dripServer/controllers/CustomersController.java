@@ -1,6 +1,5 @@
 package com.farpad.dripServer.controllers;
 
-import com.farpad.dripServer.models.Customer;
 import com.farpad.dripServer.models.clientSideData.CustomerFormData;
 import com.farpad.dripServer.services.AggregationService;
 import com.farpad.dripServer.services.CustomerService;

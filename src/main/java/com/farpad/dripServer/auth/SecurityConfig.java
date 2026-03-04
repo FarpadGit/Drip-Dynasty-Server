@@ -43,6 +43,7 @@ public class SecurityConfig {
                     authorize.requestMatchers("/customers/**").hasRole("ADMIN");
                     authorize.requestMatchers("/orders").hasRole("ADMIN");
                     authorize.requestMatchers("/orders/**").hasRole("ADMIN");
+                    authorize.requestMatchers(HttpMethod.POST, "/reset-db").hasRole("ADMIN");
                     authorize.requestMatchers("/auth/enticate").hasAnyRole("ADMIN");
                     authorize.anyRequest().permitAll();
                 })

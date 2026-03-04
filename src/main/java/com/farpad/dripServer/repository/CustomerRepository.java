@@ -7,11 +7,11 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CustomerRepository extends MongoRepository<Customer, String> {
-    public long count();
+    long count();
 
     @Query("{email: ?0}")
-    public Customer findCustomerByEmail(String email);
+    Customer findCustomerByEmail(String email);
 
     @Query("{orders: {$all: [?0]}}")
-    public Customer findByOrderId(String orderId);
+    Customer findByOrderId(String orderId);
 }

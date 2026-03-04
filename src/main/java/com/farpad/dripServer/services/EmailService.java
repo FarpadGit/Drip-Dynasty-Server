@@ -1,6 +1,7 @@
 package com.farpad.dripServer.services;
 
 import com.farpad.dripServer.models.Customer;
+import com.farpad.dripServer.models.Order;
 import com.farpad.dripServer.models.Product;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.InternetAddress;
@@ -28,18 +29,33 @@ public class EmailService {
 
     private final ProductService productService;
     private final CustomerService customerService;
+    private final OrderService orderService;
     private final JavaMailSender mailSender;
 
-    public EmailService(ProductService productService, CustomerService customerService, JavaMailSender mailSender) {
+    public EmailService(ProductService productService, CustomerService customerService, OrderService orderService, JavaMailSender mailSender) {
         this.productService = productService;
         this.customerService = customerService;
+        this.orderService = orderService;
         this.mailSender = mailSender;
     }
 
     public void sendPurchaseSuccessEmail(String to, String orderId) {
         try {
+            Order order = orderService.getOrder(orderId);
+            if(order == null) return;
+
             Product product = productService.getProductByOrder(orderId);
-            if(product == null) return;
+            String emailMessage = product == null ? "" : product.getEmailMessage();
+            String productImage = product == null ? "https://placehold.co/600x400?text=Product%20No%20Longer%20Sold" : product.getPrefixedFileNames(serverRootPath).get(0);
+            StringBuilder variantsString = new StringBuilder();
+            if(order.getVariants() == null) {
+                variantsString.append("-");
+            } else {
+                order.getVariants().forEach(variant -> {
+                    if(!variantsString.isEmpty()) variantsString.append(", ");
+                    variantsString.append(variant.getName()).append(": ").append(variant.getValue());
+                });
+            }
 
             MimeMessage message = mailSender.createMimeMessage();
 
@@ -56,10 +72,11 @@ public class EmailService {
 
             // Replace placeholders in the HTML template with dynamic values
             htmlTemplate = htmlTemplate.replace("${orderId}", orderId);
-            htmlTemplate = htmlTemplate.replace("${extra}", product.getExtra());
-            htmlTemplate = htmlTemplate.replace("${productName}", product.getName());
-            htmlTemplate = htmlTemplate.replace("${productPrice}", nf.format(product.getPrice()));
-            htmlTemplate = htmlTemplate.replace("${productImage}", product.getPrefixedFileNames(serverRootPath).get(0));
+            htmlTemplate = htmlTemplate.replace("${emailMessage}", emailMessage);
+            htmlTemplate = htmlTemplate.replace("${productName}", order.getProductName());
+            htmlTemplate = htmlTemplate.replace("${productVariant}", variantsString.toString());
+            htmlTemplate = htmlTemplate.replace("${productPrice}", nf.format(order.getPricePaid()));
+            htmlTemplate = htmlTemplate.replace("${productImage}", productImage);
 
             // Set the email's content to be the HTML template
             message.setContent(htmlTemplate, "text/html; charset=utf-8");
@@ -88,15 +105,28 @@ public class EmailService {
             nf.setCurrency(Currency.getInstance(Locale.forLanguageTag("hu-HU")));
             nf.setMaximumFractionDigits(0);
 
-            List<String> orders = customer.getOrders();
-            orders.forEach(o -> {
-                Product p = productService.getProductByOrder(o);
+            List<String> orderIds = customer.getOrders();
+            orderIds.forEach(orderId -> {
+                Order order = orderService.getOrder(orderId);
+                Product p = productService.getProductByOrder(orderId);
+                String emailMessage = p == null ? "" : p.getEmailMessage();
+                String productImage = p == null ? "https://placehold.co/600x400?text=Product%20No%20Longer%20Sold" : p.getPrefixedFileNames(serverRootPath).get(0);
+                StringBuilder variantsString = new StringBuilder();
+                if(order.getVariants() == null) {
+                    variantsString.append("-");
+                } else {
+                    order.getVariants().forEach(variant -> {
+                        if(!variantsString.isEmpty()) variantsString.append(", ");
+                        variantsString.append(variant.getName()).append(": ").append(variant.getValue());
+                    });
+                }
                 String tableRow = "<tr>" +
-                        "<td>" + o + "</td>" +
-                        "<td>" + p.getName() + "</td>" +
-                        "<td>" + nf.format(p.getPrice()) + "</td>" +
-                        "<td><img alt='' src='" + p.getPrefixedFileNames(serverRootPath).get(0) + "' width='120px' height='120px'/></td>" +
-                        "<td>" + p.getExtra() + "</td>" +
+                        "<td>" + orderId + "</td>" +
+                        "<td>" + order.getProductName() + "</td>" +
+                        "<td>" + variantsString + "</td>" +
+                        "<td>" + nf.format(order.getPricePaid()) + "</td>" +
+                        "<td><img alt='' src='" + productImage + "' width='120px' height='120px'/></td>" +
+                        (emailMessage == null ? "" : "<td>" + emailMessage + "</td>") +
                         "</tr>";
                 htmlTableRows.append(tableRow);
             });

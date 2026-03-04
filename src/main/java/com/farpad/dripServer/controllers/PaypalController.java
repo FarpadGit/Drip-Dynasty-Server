@@ -14,6 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @RestController
@@ -52,9 +53,14 @@ public class PaypalController {
             customer = customerService.createCustomer(bodyParams.getCustomerEmail());
         }
         String productId = bodyParams.getProductId();
+        String productName = bodyParams.getProductName();
         String customerId = customer.getId();
         Integer pricePaid = Integer.parseInt(bodyParams.getPricePaid());
-        Order newOrder = orderService.createOrder(productId, customerId, pricePaid);
+        List<Order.OrderedVariant> variants = null;
+        try {
+          variants = bodyParams._getVariants();
+        } catch(Exception ignored) {}
+        Order newOrder = orderService.createOrder(productId, customerId, productName, pricePaid, variants);
 
         customer.getOrders().add(newOrder.getId());
         customerService.saveCustomer(customer);
@@ -62,6 +68,14 @@ public class PaypalController {
         Product product = productService.getProduct(productId);
         if(product.getOrders() == null) product.setOrders(new ArrayList<>());
         product.getOrders().add(newOrder.getId());
+        if(product.getVariants().isEmpty())
+            product.setDefaultStock(product.getDefaultStock() - 1);
+        else if (variants != null) {
+            variants.forEach(orderedVariant -> {
+                Product.Variant variant = product.getVariants().stream().filter(v -> v.getGroupName().equals(orderedVariant.getName())).toList().get(0);
+                variant.decreaseStockFor(orderedVariant.getValue());
+            });
+        }
 
         productService.saveProduct(product);
 

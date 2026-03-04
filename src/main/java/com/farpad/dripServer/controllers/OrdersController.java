@@ -22,8 +22,8 @@ public class OrdersController {
   @GetMapping("")
   public ResponseEntity<List<OrderFormData>> getOrders() {
     List<Order> orders = orderService.getOrders();
-    List<OrderFormData> customers = orders.stream().map(aggregationService::populateOrder).toList();
-    return new ResponseEntity<>(customers, HttpStatus.OK);
+    List<OrderFormData> response = orders.stream().map(aggregationService::populateOrder).toList();
+    return new ResponseEntity<>(response, HttpStatus.OK);
   }
 
   @DeleteMapping("/{id}")

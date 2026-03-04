@@ -24,7 +24,7 @@ public class ResetController {
     private final CustomerService customerService;
     private final OrderService orderService;
 
-    @PostMapping("/resetDB")
+    @PostMapping("/reset-db")
     public ResponseEntity<Void> resetDatabase(){
         try {
                 ObjectMapper mapper = new ObjectMapper();

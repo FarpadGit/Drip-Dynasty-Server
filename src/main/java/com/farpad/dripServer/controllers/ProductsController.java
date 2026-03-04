@@ -2,12 +2,11 @@ package com.farpad.dripServer.controllers;
 
 import java.nio.file.Path;
 import java.util.*;
+import java.util.stream.Stream;
 
+import com.farpad.dripServer.models.clientSideData.ProductFiltersData;
 import com.farpad.dripServer.models.clientSideData.ProductFormData;
-import com.farpad.dripServer.models.clientSideData.OrderFormData;
 import com.farpad.dripServer.models.Product;
-import com.farpad.dripServer.models.Customer;
-import com.farpad.dripServer.models.Order;
 import com.farpad.dripServer.models.clientSideData.ProductPaginatedResponse;
 import com.farpad.dripServer.services.*;
 
@@ -29,17 +28,26 @@ public class ProductsController {
   private String serverRootPath;
 
   private final ProductService productService;
-  private final CustomerService customerService;
-  private final OrderService orderService;
   private final ImageService imageService;
-  private final EmailService emailService;
-  private final PaypalService paypalService;
 
   @GetMapping("")
-  public ResponseEntity<ProductPaginatedResponse> getProducts(@RequestParam(required = false) String category, @RequestParam(required = false) String page) {
-    Integer _page = page == null ? null : Integer.parseInt(page);
-    Page<Product> productPage = productService.getProducts(category, _page);
-    List<ProductFormData> products = productPage.stream().map(p -> p.asClientSide(serverRootPath)).toList();
+  public ResponseEntity<ProductPaginatedResponse> getProducts(
+          @RequestParam(required = false) String category,
+          @RequestParam(required = false) String priceMin,
+          @RequestParam(required = false) String priceMax,
+          @RequestParam(required = false) List<String> tags,
+          @RequestParam(required = false) String page,
+          @RequestParam(required = false) String sortBy
+  ) {
+    Product.Filters appliedFilters = null;
+    if(!Stream.of(category, priceMin, priceMax, tags, page, sortBy).allMatch(Objects::isNull))
+      appliedFilters = new Product.Filters(priceMin, priceMax, category, tags, page, sortBy);
+    Page<Product> productPage = productService.getProducts(appliedFilters);
+
+    List<ProductFormData> products;
+    if(productPage.getTotalElements() > 0)
+       products = productPage.stream().map(p -> p.asClientSide(serverRootPath)).toList();
+    else products = List.of();
     ProductPaginatedResponse response = new ProductPaginatedResponse(products, productPage.hasNext(), productPage.hasPrevious(), productPage.getTotalPages());
     return new ResponseEntity<>(response, HttpStatus.OK);
   }
@@ -50,7 +58,7 @@ public class ProductsController {
     return new ResponseEntity<>(products, HttpStatus.OK);
   }
 
-  @GetMapping("mostPopular")
+  @GetMapping("most-popular")
   public ResponseEntity<List<ProductFormData>> getMostPopularProducts() {
     List<ProductFormData> products = productService.getMostPopularProducts().stream().map(p -> p.asClientSide(serverRootPath)).toList();
     return new ResponseEntity<>(products, HttpStatus.OK);
@@ -59,6 +67,13 @@ public class ProductsController {
   @GetMapping("/{id}")
   public ResponseEntity<ProductFormData> getProduct(@PathVariable String id) {
     Product product = productService.getProduct(id);
+    if(product == null) return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+    return new ResponseEntity<>(product.asClientSide(serverRootPath), HttpStatus.OK);
+  }
+
+  @GetMapping("/by-slug/{slug}")
+  public ResponseEntity<ProductFormData> getProductBySlug(@PathVariable String slug) {
+    Product product = productService.getProductBySlug(slug);
     if(product == null) return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
     return new ResponseEntity<>(product.asClientSide(serverRootPath), HttpStatus.OK);
   }
@@ -120,16 +135,10 @@ public class ProductsController {
       product.setFileNames(imagePaths);
     }
 
-    product.setName(bodyParams.getName());
-    product.setDescription(bodyParams.getDescription());
-    product.setCategories(bodyParams.getCategories());
-    product.setPrice(Integer.parseInt(bodyParams.getPrice()));
-    product.setDiscount(Integer.parseInt(bodyParams.getDiscount()));
-    product.setExtra(bodyParams.getExtra());
+    productService.setProduct(product, bodyParams);
     product.setUpdatedAt(new Date());
 
     if(product.getFileNames().isEmpty()) product.setIsAvailableForPurchase(false);
-    else product.setIsAvailableForPurchase(Boolean.parseBoolean(bodyParams.getIsActive()));
 
     productService.saveProduct(product);
 
@@ -141,5 +150,13 @@ public class ProductsController {
     boolean deleted = productService.deleteProduct(id);
     if (!deleted) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+  }
+
+  @GetMapping("/searchtags")
+  public ResponseEntity<ProductFiltersData> getSearchTags() {
+    List<Product.SearchTag> searchTags = productService.getSearchTags();
+    Integer maxPrice = productService.getHighestPrice();
+    ProductFiltersData response = new ProductFiltersData(searchTags, maxPrice);
+    return new ResponseEntity<>(response, HttpStatus.OK);
   }
 }

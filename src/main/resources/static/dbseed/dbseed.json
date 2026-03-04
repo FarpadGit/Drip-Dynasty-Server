@@ -1,315 +1,1234 @@
 ﻿[{
 	"id":1,
-	"name":"Windstriker Hyper Black",
-	"description":"<center><strong>WINDSTRIKER ⛛ MOD 'HYPER'</strong></center><center><strong>BLACK EDITION</strong></center><br><br></p><p>The<span>&nbsp;</span><em><strong>Windstriker Mod HYPE Type-R</strong></em>&nbsp;or<span>&nbsp;</span><strong>'HYPER'</strong><span>&nbsp;</span>is the updated variant of our prototype<span>&nbsp;</span>Windstriker. Originally designed as an all-terrain windbreaker for light, urban environments, the Hyper variant improves upon the Mod Zero design by adding a variety of new features for the operator while retaining the most important design aspects. Optimized after several years of pilot feedback, the Windstriker Hyper can be worn in several different ways while sporting the same material, craftsmanship and design of the original Windstriker Mod Zero.<br><br><center><strong>FEATURES</strong></center><br> ◣ Five total pockets, including three front-facing zipper closures, an internal breast pocket and an enlarged arm pocket. The enlarged arm pocket is angled forward to allow easier access to storage and has loop material for attaching and removing Velcro-style patches.<br><br>◣ Stowable hood that can either be deployed for adverse environments or hidden in the collar for convenient storage.<br><br>◣ Central, double zipper allows the jacket to be parted at the bottom when fully zipped up, allowing the Windstriker Hyper to be tapered. This allows pant pockets to be more easily accessed if the user finds the jacket hem ending below their waistline.<br><br>◣ Secondary zipper opens from the center, allowing the user to quickly open and access the internal breast pocket without compromising their protection.<br><br>◣ Snap-button fold-over front provides several options for wear, including fully closed, fully open or single button closure for a 'double-breasted' jacket look. Even when fully enclosed, the secondary zipper can be accessed so the user can reach into the internal breast pocket.<br><br>◣ Adjustable wrist-cuffs and elastic drawstring pull tabs enable a more fitted appearance.<br><br></p>",
+	"name":"Windstriker Hyper Black / White",
+	"slug": "windstriker-hyper-windbreaker",
+	"description":"<center><strong>WINDSTRIKER ⛛ MOD 'HYPER'</strong></center><center></center><br><br></p><p>The<span>&nbsp;</span><em><strong>Windstriker Mod HYPE Type-R</strong></em>&nbsp;or<span>&nbsp;</span><strong>'HYPER'</strong><span>&nbsp;</span>is the updated variant of our prototype<span>&nbsp;</span>Windstriker. Originally designed as an all-terrain windbreaker for light, urban environments, the Hyper variant improves upon the Mod Zero design by adding a variety of new features for the operator while retaining the most important design aspects. Optimized after several years of pilot feedback, the Windstriker Hyper can be worn in several different ways while sporting the same material, craftsmanship and design of the original Windstriker Mod Zero.<br><br><center><strong>FEATURES</strong></center><br> ◣ Five total pockets, including three front-facing zipper closures, an internal breast pocket and an enlarged arm pocket. The enlarged arm pocket is angled forward to allow easier access to storage and has loop material for attaching and removing Velcro-style patches.<br><br>◣ Stowable hood that can either be deployed for adverse environments or hidden in the collar for convenient storage.<br><br>◣ Central, double zipper allows the jacket to be parted at the bottom when fully zipped up, allowing the Windstriker Hyper to be tapered. This allows pant pockets to be more easily accessed if the user finds the jacket hem ending below their waistline.<br><br>◣ Secondary zipper opens from the center, allowing the user to quickly open and access the internal breast pocket without compromising their protection.<br><br>◣ Snap-button fold-over front provides several options for wear, including fully closed, fully open or single button closure for a 'double-breasted' jacket look. Even when fully enclosed, the secondary zipper can be accessed so the user can reach into the internal breast pocket.<br><br>◣ Adjustable wrist-cuffs and elastic drawstring pull tabs enable a more fitted appearance.<br><br></p>",
 	"price":33900,
-	"imagePaths":["Windstriker_Black.jpg","Windstriker_Black_2.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "black", "stock": 10 },
+			{ "name": "white", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 },
+			{ "name": "3XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "style", "value": "windbreaker" },
+			{ "name": "brand", "value": "M.RAGE" }
+	],
+	"imagePaths":["windstriker_black_1.jpg","windstriker_black_2.jpg","windstriker_black_3.jpg","windstriker_white_1.jpg","windstriker_white_2.jpg","windstriker_white_3.jpg"],
 	"categories":["jacket","men","women"],
-	"extra":"Here's the real web shop for Windstriker Hyper Black: <a href=\"https://mdotrage.com/collections/outerwear/products/windstriker-hyper-black\">https://mdotrage.com/collections/outerwear/products/windstriker-hyper-black</a>"
+	"emailMessage":"Here's the real web shop for Windstriker Hyper Black: <a href=\"https://mdotrage.com/collections/outerwear/products/windstriker-hyper-black\">https://mdotrage.com/collections/outerwear/products/windstriker-hyper-black</a>"
 },
 {
 	"id":2,
-	"name":"Pilot Retention System [Crimson]",
-	"description":"<center><b>PILOT RETENTION SYSTEM</b></center><center><b>TYPE 02 : CRIMSON</b></center><br><center><b></b></center><p><b>NOTICE:</b><span>&nbsp;</span>All belts are handmade to order. There may be a delay of up to 2 weeks for your belt to be shipped. We apologize for the delays. We try our best to keep these in stock, but it takes us awhile to produce.&nbsp;</p><p>The<span>&nbsp;</span><i>PILOT RETENTION SYSTEM</i><span>&nbsp;</span>is a heavy duty, industrial belt designed to keep operators secured in ZERO-G environments. Constructed from 38mm nylon webbing,<span>&nbsp;</span><b>each PRS belt is hand-assembled in Los Angeles by M.RAGE Astral Systems</b><span>&nbsp;</span>and is sold as an exclusive package, complete with a retention lanyard, laser-engraved buckle and custom flight tag. The lanyard strap can be easily removed and reattached when desired.</p><p><b>The PILOT RETENTION SYSTEM includes:</b></p><ul><li>1x Embroidered Operator's belt</li><li>1x Engraved M.RAGE 'Pilot' buckle</li><li>1x <em>** 'Retention'</em> lanyard with aluminum carabiner clip</li><li>1x <i>'PRS'</i><span>&nbsp;</span>woven flight tag</li></ul><p><b>Specifications:</b><span>&nbsp;</span>Nylon Width: 38mm Nylon Thickness: 2mm</p>",
+	"name":"Pilot Retention System [Crimson / Shadow]",
+	"slug": "pilot-retention-system",
+	"description":"<center><b>PILOT RETENTION SYSTEM</b></center><center></center><br><center><b></b></center><p><b>NOTICE:</b><span>&nbsp;</span>All belts are handmade to order. There may be a delay of up to 2 weeks for your belt to be shipped. We apologize for the delays. We try our best to keep these in stock, but it takes us awhile to produce.&nbsp;</p><p>The<span>&nbsp;</span><i>PILOT RETENTION SYSTEM</i><span>&nbsp;</span>is a heavy duty, industrial belt designed to keep operators secured in ZERO-G environments. Constructed from 38mm nylon webbing,<span>&nbsp;</span><b>each PRS belt is hand-assembled in Los Angeles by M.RAGE Astral Systems</b><span>&nbsp;</span>and is sold as an exclusive package, complete with a retention lanyard, laser-engraved buckle and custom flight tag. The lanyard strap can be easily removed and reattached when desired.</p><p><b>The PILOT RETENTION SYSTEM includes:</b></p><ul><li>1x Embroidered Operator's belt</li><li>1x Engraved M.RAGE 'Pilot' buckle</li><li>1x <em>** 'Retention'</em> lanyard with aluminum carabiner clip</li><li>1x <i>'PRS'</i><span>&nbsp;</span>woven flight tag</li></ul><p><b>Specifications:</b><span>&nbsp;</span>Nylon Width: 38mm Nylon Thickness: 2mm</p>",
 	"price":29900,
-	"imagePaths":["PRS1.jpg","prsbelt.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "crimson", "stock": 10 },
+			{ "name": "#111111", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "Kaijin (S-M)", "stock": 10 },
+			{ "name": "Seijin (L-3XL)", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "style", "value": "belt lanyard" },
+			{ "name": "brand", "value": "M.RAGE" }
+	],
+	"imagePaths":["PRS_1.jpg","PRS_2.jpg","PRS_3.jpg","PRS_4.jpg","PRS_5.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Pilot Retention System: <a href=\"https://mdotrage.com/collections/accessories/products/retentionsystemc\">https://mdotrage.com/collections/accessories/products/retentionsystemc</a>"
+	"emailMessage":"Here's the real web shop for Pilot Retention System: <a href=\"https://mdotrage.com/collections/accessories/products/retentionsystemc\">https://mdotrage.com/collections/accessories/products/retentionsystemc</a>"
 },
 {
 	"id":3,
 	"name":"M.RAGE Fight Tag",
+	"slug": "fight-tag",
 	"description":"<center><strong>「M.RAGE Keychain Tag Series 001」</strong></center><center>'REMOVE BEFORE FIGHT'</center><br><p>Proudly display M.RAGE's first keychain tag to show off your combat readiness. Includes a double sided embroidery tag attached to a 1\" keyring. Tag Size: 「5\" L x 1\" W」</p><p>Designed in Los Angeles</p><center>⛛</center><br>All items are meticulously inspected before shipment to ensure print and manufacturer quality. All sales are final. However, any products that feature significant manufacturer or printing defects will be returnable for a replacement within 7 days.",
 	"price":2700,
-	"imagePaths":["revisedfight.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "belt lanyard" },
+			{ "name": "style", "value": "keychain tag" },
+			{ "name": "brand", "value": "M.RAGE" }
+	],
+	"imagePaths":["fighttag_1.jpg","fighttag_2.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for M.RAGE Fight Tag: <a href=\"https://mdotrage.com/collections/accessories/products/m-rage-fight-tag\">https://mdotrage.com/collections/accessories/products/m-rage-fight-tag</a>"
+	"emailMessage":"Here's the real web shop for M.RAGE Fight Tag: <a href=\"https://mdotrage.com/collections/accessories/products/m-rage-fight-tag\">https://mdotrage.com/collections/accessories/products/m-rage-fight-tag</a>"
 },
 {
 	"id":4,
-	"name":"Sengoku Shadow Pilot Bomber Mk. II",
-	"description":"<center><b>SENGOKU SYSTEM MK. II</b></center><center><b>⛛<br><br></b></center><p><b>The SENGOKU SYSTEM MK.II&nbsp;</b>is a specialized, neural-interface unit developed to keep pilots protected under inhospitable weather and zero-gravity conditions. Designed and programmed by M.RAGE Astral Systems, the SENGOKU SYSTEM is equipped with specialized, water repellent fabric and features a quick detach,&nbsp;white hood to protect the most elite of M.RAGE pilots.</p><p>Comes with the exclusive,&nbsp;SHADOW&nbsp;flight tag. <b>SHADOW TEAM</b><span>&nbsp;are one of three, ace pilot divisions deployed by M.RAGE. Only those with the skill and determination to win at any cost know what it means to embrace the&nbsp;</span><i>shadow</i>.</p><br><br><p><strong>The SENGOKU SHADOW MK.II features updated logos, an embroidered patch on the upper right sleeve and a redesigned, acrylic flight tag.&nbsp;</strong></p><p><strong><span>[WARNING]:</span> THE SENGOKU SHADOW IS <span>BLACK</span>.&nbsp;Colors in images may give the jacket a blue appearance due to camera flash or street lighting.</strong></p>",
+	"name":"Sengoku Pilot Bomber Mk. II",
+	"slug": "sengoku-pilot-bomber-mk-2",
+	"description":"<center><b>SENGOKU SYSTEM MK. II</b></center><center><b>⛛<br><br></b></center><p><b>The SENGOKU SYSTEM MK.II&nbsp;</b>is a specialized, neural-interface unit developed to keep pilots protected under inhospitable weather and zero-gravity conditions. Designed and programmed by M.RAGE Astral Systems, the SENGOKU SYSTEM is equipped with specialized, water repellent fabric and features a quick detach,&nbsp;white hood to protect the most elite of M.RAGE pilots.</p><p>Comes with the exclusive,&nbsp;SHADOW&nbsp;flight tag.</p><br><br><p><strong>The SENGOKU MK.II features updated logos, an embroidered patch on the upper right sleeve and a redesigned, acrylic flight tag.&nbsp;</strong></p><p><strong><span>[WARNING]:</span> THE SENGOKU SHADOW IS <span>BLACK</span>.&nbsp;Colors in images may give the jacket a blue appearance due to camera flash or street lighting.</strong></p>",
 	"price":39600,
-	"imagePaths":["websiteshadow2.jpg","websiteshadow3.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "black", "stock": 10 },
+			{ "name": "blue", "stock": 10 },
+			{ "name": "red", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 },
+			{ "name": "3XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "style", "value": "windbreaker" },
+			{ "name": "brand", "value": "M.RAGE" }
+	],
+	"imagePaths":["sengoku_bomber_1.jpg","sengoku_bomber_2.jpg","sengoku_bomber_3.jpg","sengoku_bomber_4.jpg","sengoku_bomber_5.jpg","sengoku_bomber_6.jpg"],
 	"categories":["jacket","men","women"],
-	"extra":"Here's the real web shop for Sengoku Shadow Pilot Bomber Mk. II: <a href=\"https://mdotrage.com/collections/bomber-jackets/products/sengoku-shadow\">https://mdotrage.com/collections/bomber-jackets/products/sengoku-shadow</a>"
+	"emailMessage":"Here's the real web shop for Sengoku Pilot Bomber Mk. II: <a href=\"https://mdotrage.com/collections/bomber-jackets/products/sengoku-shadow\">https://mdotrage.com/collections/bomber-jackets/products/sengoku-shadow</a>"
 },
 {
 	"id":5,
 	"name":"Men's Synthetic Leather Jacket Hooded",
+	"slug": "mens-synthetic-leather-jacket-hooded",
 	"description":"<p>CJ284 men's synthetic leather jacket hooded in a cool look</p><div><ul><li>Pleasant comfort</li><li>Hood</li><li>leatherette</li><li>Ribbon</li><li>Lettering</li></ul></div><div><div>Super stylish cipo &amp; baxx jacket that has a comfortable wearing comfort due to the pure cotton content. The double jackets optics particularly emphasize the extraordinary design of the jacket. The jacket has two side pockets and two breast pocket with a button closure. Various Cipo &amp; Baxx Logos still raise the brand extra. The jacket's closure consists of a zipper. Fit: Regular-Fit</div></div>",
 	"price":45990,
-	"imagePaths":["CJ284_MUSTARD.jpg","CJ284_MUSTARD_2.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "orange", "stock": 10 },
+			{ "name": "crimson", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "style", "value": "leather jacket" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CJ284_1.jpg","CJ284_2.jpg","CJ284_3.jpg","CJ284_4.jpg","CJ284_5.jpg"],
 	"categories":["jacket","men"],
-	"extra":"Here's the real web shop for Men's Synthetic Leather Jacket Hooded: <a href=\"https://www.cipoandbaxx.hu/CIPO-BAXX-DIVATOS-MUBOR-KABAT\">https://www.cipoandbaxx.hu/CIPO-BAXX-DIVATOS-MUBOR-KABAT</a>"
+	"emailMessage":"Here's the real web shop for Men's Synthetic Leather Jacket Hooded: <a href=\"https://www.cipoandbaxx.hu/CIPO-BAXX-DIVATOS-MUBOR-KABAT\">https://www.cipoandbaxx.hu/CIPO-BAXX-DIVATOS-MUBOR-KABAT</a>"
 },
 {
 	"id":6,
 	"name":"Men's Straight Jeans with Cargo Pockets",
+	"slug": "mens-straight-jeans-cargo-pockets",
 	"description":"<p>CD780 men's straight jeans with trendy cargo pockets</p><div><ul><li>Fashionable jeans from Cipo &amp; Baxx for men</li><li>High cotton content for perfect wearing comfort</li><li>Trendy cargo pockets as a highlight</li><li>Comfortable straight fit cut with straight legs</li><li>Can be combined in many ways for casual looks</li></ul></div><div>The fashionable straight fit jeans from Cipo &amp; Baxx for men have a great cut and therefore fit perfectly on every occasion. The jeans are also visually impressive and, with their trendy cargo pockets, are an absolute eye-catcher, no matter what look they are combined with. Whether in everyday life, in your free time or for your next date, these trousers always cut a good figure.</div>",
 	"price":27990,
-	"imagePaths":["CD780_BROWN.jpg","CD780_BROWN_2.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "style", "value": "jeans" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CD780_1.jpg","CD780_2.jpg","CD780_3.jpg","CD780_4.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for Men's Straight Jeans with Cargo Pockets: <a href=\"https://www.cipoandbaxx.hu/CIPOANDBAXX-CD780-BROWN\">https://www.cipoandbaxx.hu/CIPOANDBAXX-CD780-BROWN</a>"
+	"emailMessage":"Here's the real web shop for Men's Straight Jeans with Cargo Pockets: <a href=\"https://www.cipoandbaxx.hu/CIPOANDBAXX-CD780-BROWN\">https://www.cipoandbaxx.hu/CIPOANDBAXX-CD780-BROWN</a>"
 },
 {
 	"id":7,
 	"name":"Men's Comfortable Jeans Regular Fit",
+	"slug": "mens-comfortable-jeans-regular-fit",
 	"description":"<p>CD568 men's comfortable jeans in the regular fit cut</p><ul><li>Stylish jeans from Cipo &amp; Baxx for men</li><li>Regular fit cut for high comfort</li><li>Made from high-quality cotton-elastane mix</li><li>With zipper and decorative stitching as an eye -catcher</li><li>Ideal for combining casual leisure outfits</li></ul><p>Cipo &amp; Baxx presents the permanent favorite as a model for men with a comfortable regular fit cut, which can be easily combined with every outfit. A high-contrast wash, casual knee inserts and stylish decorative zipper give the jeans their unmistakably rocking biker look. The design is finally rounded off with black shiny rivets on the pockets. Thanks to Elasthan, the robust denim fabric adapts comfortably to every movement and thus ensures comfortable wearing comfort.<br><br><span>(Color deviations through different monitor settings and lighting conditions possible when taking pictures)</span></p>",
 	"price":25990,
-	"imagePaths":["CD568BLACK.jpg","CD568BLACK_2.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "W30-L32", "stock": 10 },
+			{ "name": "W32-L34", "stock": 10 },
+			{ "name": "W34-L34", "stock": 10 },
+			{ "name": "W36-L34", "stock": 10 },
+			{ "name": "W40-L34", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size (jeans)", "value": "W30-L32" },
+			{ "name": "size (jeans)", "value": "W32-L34" },
+			{ "name": "size (jeans)", "value": "W34-L34" },
+			{ "name": "size (jeans)", "value": "W36-L34" },
+			{ "name": "size (jeans)", "value": "W40-L34" },
+			{ "name": "style", "value": "jeans" },
+			{ "name": "material", "value": "denim" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CD568_1.jpg","CD568_2.jpg","CD568_3.jpg","CD568_4.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for Men's Comfortable Jeans Regular Fit: <a href=\"https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-farmer-CD568-Black\">https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-farmer-CD568-Black</a>"
+	"emailMessage":"Here's the real web shop for Men's Comfortable Jeans Regular Fit: <a href=\"https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-farmer-CD568-Black\">https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-farmer-CD568-Black</a>"
 },
 {
 	"id":8,
 	"name":"Men's Straight Fit Jeans Black",
+	"slug":"mens_straight_fit_jeans_black",
 	"description":"<p>CD561 men Straight fit jeans with striking elements</p><div><ul><li>Rocky jeans from Cipo &amp; Baxx for men</li><li>Made of cotton and elasthan high quality</li><li>Provided with cool patches and decorative stitching</li><li>Fashionable washing sets great accents</li><li>Ideal for exciting leisure looks</li></ul></div><div><div>The fashionable straight fit jeans of the CIPO &amp; BAXX brand impresses with its striking design with contrast-colored elements and used look wash. The large pockets with a push button clasp, the decorative stitching and decorative zone locks are the highlights of the long trousers. So it skillfully enhances every outfit. In addition, she is cut great and therefore sits perfectly on every opportunity. Made from cotton and Elasthan, it gives a high level of comfort when wearing.&nbsp;</div>",
 	"price":35990,
-	"imagePaths":["CD561BLACK.jpg","cd561-herren-straight-fit-jeans-mit-auff-lligen-elementen-8291.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "W30-L32", "stock": 10 },
+			{ "name": "W32-L34", "stock": 10 },
+			{ "name": "W34-L34", "stock": 10 },
+			{ "name": "W36-L34", "stock": 10 },
+			{ "name": "W40-L34", "stock": 10 },
+			{ "name": "W44-L34", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size (jeans)", "value": "W30-L32" },
+			{ "name": "size (jeans)", "value": "W32-L34" },
+			{ "name": "size (jeans)", "value": "W34-L34" },
+			{ "name": "size (jeans)", "value": "W36-L34" },
+			{ "name": "size (jeans)", "value": "W40-L34" },
+			{ "name": "size (jeans)", "value": "W44-L34" },
+			{ "name": "style", "value": "jeans" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CD561_1.jpg","CD561_2.jpg","CD561_3.jpg","CD561_4.jpg","CD561_5.jpg","CD561_6.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for Men's Straight Fit Jeans Black: <a href=\"https://www.cipoandbaxx.com/en/products/cd561-men-straight-fit-jeans-with-striking-elements\">https://www.cipoandbaxx.com/en/products/cd561-men-straight-fit-jeans-with-striking-elements</a>"
+	"emailMessage":"Here's the real web shop for Men's Straight Fit Jeans Black: <a href=\"https://www.cipoandbaxx.com/en/products/cd561-men-straight-fit-jeans-with-striking-elements\">https://www.cipoandbaxx.com/en/products/cd561-men-straight-fit-jeans-with-striking-elements</a>"
 },
 {
 	"id":9,
 	"name":"Leather Belt With Studs White",
+	"slug":"leather-belt-studs-white",
 	"description":"<p>CG133 leather belts with a cool rivet stock</p><div><ul><li>Extravagant leather belt from CIPO &amp; BAXX for men</li><li>With a striking rivet trim as a highlight</li><li>Sporty closure in the angular design</li><li>Snake pattern as an optical accent</li><li>Can be combined with numerous casuallooks</li><li>Width: 4.4cm</li></ul></div><div>This versatile leather belt is provided with cool rivets and a hole pattern, which makes it rocky companion for versatile casual looks in everyday life and leisure. The design is additionally supplemented with a subtle snake pattern that gives the belt its unmistakable structure. The angular clasp sound is quickly closed and keeps the belt uncomplicated and safely in its place. Note: The belt sizes indicate the CM equivalent of the length from the underside of the buckle to the center hole.</div>",
 	"price":8590,
-	"imagePaths":["CG133WHITE.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "85", "stock": 10 },
+			{ "name": "90", "stock": 10 },
+			{ "name": "95", "stock": 10 },
+			{ "name": "100", "stock": 10 },
+			{ "name": "105", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "waist size", "value": "85" },
+			{ "name": "waist size", "value": "90" },
+			{ "name": "waist size", "value": "95" },
+			{ "name": "waist size", "value": "100" },
+			{ "name": "waist size", "value": "105" },
+			{ "name": "style", "value": "belt" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CG133_1.jpg","CG133_2.jpg","CG133_3.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Leather Belt With Studs White: <a href=\"https://www.cipoandbaxx.hu/Cipo-Baxx-ferfi-ov-CG133WHITE\">https://www.cipoandbaxx.hu/Cipo-Baxx-ferfi-ov-CG133WHITE</a>"
+	"emailMessage":"Here's the real web shop for Leather Belt With Studs White: <a href=\"https://www.cipoandbaxx.hu/Cipo-Baxx-ferfi-ov-CG133WHITE\">https://www.cipoandbaxx.hu/Cipo-Baxx-ferfi-ov-CG133WHITE</a>"
 },
 {
 	"id":10,
 	"name":"Got Too Close Skull Fingerless Gloves",
+	"slug":"skull-fingerless-gloves",
 	"description":"<ul><li>Available In Black, Red, Blue.</li><li>Premium material: Polyester.</li></ul>",
 	"price":7500,
-	"imagePaths":["got-too-close-skull-fingerless-gloves-techwear-official-3.jpg","got-too-close-skull-fingerless-gloves-techwear-official-6.jpg"],
+	"variants": [{
+		"groupName": "style",
+		"type": "text",
+		"variants": [
+			{ "name": "half finger", "stock": 10 },
+			{ "name": "full finger", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "style", "value": "gloves" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["skull_fingerless_gloves_1.jpg","skull_fingerless_gloves_2.jpg","skull_fingerless_gloves_3.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Got Too Close Skull Fingerless Gloves: <a href=\"https://techwearofficial.com/collections/gloves/products/got-too-close-skull-fingerless-gloves\">https://techwearofficial.com/collections/gloves/products/got-too-close-skull-fingerless-gloves</a>"
+	"emailMessage":"Here's the real web shop for Got Too Close Skull Fingerless Gloves: <a href=\"https://techwearofficial.com/collections/gloves/products/got-too-close-skull-fingerless-gloves\">https://techwearofficial.com/collections/gloves/products/got-too-close-skull-fingerless-gloves</a>"
 },
 {
 	"id":11,
 	"name":"Techwear Functional Tactical Belt",
+	"slug":"techwear-functional-tactical-belt",
 	"description":"<p>Experience the perfect fusion of style and functionality with our cutting-edge Tactical Belt.&nbsp;<br>Featuring an ergonomic and arc-shaped buckle design, our Tactical Belt conforms to the principles of human ergonomics, ensuring <strong>maximum comfort</strong> and a secure fit. Crafted from <strong>high-quality zinc alloy</strong>, the buckle exhibits a glossy finish, exceptional durability, and resistance to wear, oxidation, and scratches.<br>Whether you're on a top-secret mission, engaged in daring rescue work, or embarking on an adrenaline-fueled adventure, our Tactical Belt is built to withstand any challenge. Its quickdraws system allows for swift and easy wear-off, ensuring you're always ready for action.<br>It's time to redefine your limits and conquer new horizons. Gear up with our Techwear&nbsp;Tactical Belt and unleash your true potential!</p><ul><li><strong>Inspirations:<span>&nbsp;</span></strong><span>Techwear, Streetwear, Outdoor</span><br></li><li>Available In Black, Khaki, Green</li><li>Materials: Stainless steel buckle, canvas strap.</li><li>Size:137cm*3.8cm.</li></ul>",
 	"price":10200,
-	"imagePaths":["be-a-trendsetter-tactical-nylon-belt-techwear-official.jpg","BeATrendsetterTacticalNylonBelt.jpg","Techwear-Functional-Tactical-Belt_5.jpg","3_6a3bf167-f2cc-49cf-ad2c-948048325be3_1024x1024.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "belt" },
+			{ "name": "material", "value": "stainless steel" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["functional_tactical_belt_1.jpg","functional_tactical_belt_2.jpg","functional_tactical_belt_3.jpg","functional_tactical_belt_4.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Techwear Functional Tactical Belt: <a href=\"https://techwearofficial.com/collections/tactical-belt/products/techwear-functional-tactical-belt\">https://techwearofficial.com/collections/tactical-belt/products/techwear-functional-tactical-belt</a>"
+	"emailMessage":"Here's the real web shop for Techwear Functional Tactical Belt: <a href=\"https://techwearofficial.com/collections/tactical-belt/products/techwear-functional-tactical-belt\">https://techwearofficial.com/collections/tactical-belt/products/techwear-functional-tactical-belt</a>"
 },
 {
 	"id":12,
 	"name":"Futuristic Cyber Zip Hooded Jacket",
+	"slug":"futuristic-cyber-zip-hooded-jacket",
 	"description":"<ul><li><strong>Inspirations:</strong> Techwear, Streetwear, Futuristic, Cyberpunk.<br></li><li>Available In Black.<br></li><li><span>Polyester, cotton and spandex. Comfy and durable.</span></li></ul>",
 	"price":33800,
-	"imagePaths":["playing-with-time-cyber-zip-hoodie-techwear-official-2.jpg","playing-with-time-cyber-zip-hoodie-techwear-official-5.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "style", "value": "hoodie" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "material", "value": "spandex" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["cyber_zip_hoodie_1.jpg","cyber_zip_hoodie_2.jpg","cyber_zip_hoodie_3.jpg","cyber_zip_hoodie_4.jpg"],
 	"categories":["jacket","men"],
-	"extra":"Here's the real web shop for Futuristic Cyber Zip Hooded Jacket: <a href=\"https://techwearofficial.com/collections/techwear-jackets/products/futuristic-cyber-zip-hooded-jacket\">https://techwearofficial.com/collections/techwear-jackets/products/futuristic-cyber-zip-hooded-jacket</a>"
+	"emailMessage":"Here's the real web shop for Futuristic Cyber Zip Hooded Jacket: <a href=\"https://techwearofficial.com/collections/techwear-jackets/products/futuristic-cyber-zip-hooded-jacket\">https://techwearofficial.com/collections/techwear-jackets/products/futuristic-cyber-zip-hooded-jacket</a>"
 },
 {
 	"id":13,
 	"name":"Black Lace Up Crop Top",
+	"slug":"black-lace-up-crop-top",
 	"description":"<div><ul><li>Type: Crop top</li><li>Design:&nbsp;Streetwear, techwear</li><li>Ultra-resistant crop top:&nbsp;Designed with the best materials for a comfortable wear.</li><li>Breathable materials:&nbsp;This crop top is made of polyester, spandex and nylon.</li><li>Features:&nbsp;Buckles, zip</li><li>Suitable for women</li><li>Machine washable: 30&nbsp;°C (86&nbsp;°F)</li></ul><h2>Techwear&nbsp;Lace Up Crop Top<br></h2><p>Drawing inspiration from the very soul of techwear, the Black Lace Up Crop Top captivates at first glance. The lace-up detailing, which remains central to its design, evokes a sense of bold daring, challenging the norms of conventional fashion. Beyond its cutting-edge design, the intrinsic value of this crop top lies in its comfort. Every strand of fabric is carefully selected to ensure breathability, making it ideal for both high-paced urban adventures and relaxed weekend getaways.<br><br>The Black Lace Up Crop Top isn’t confined to techwear alone. Its neutral black shade provides a canvas of endless possibilities. Whether you're pairing it with high-waist cargo pants, sleek leggings, or even a midi skirt, it promises a look that's both refined and trailblazing.</p><h3>The Perfect Addition to Your Techwear Collection</h3><p>In a wardrobe that champions technological integration with fashion, the Black Lace Up Crop Top stands out. Its intricate lace-up design complements the techwear ethos of functionality intertwined with style, making it a must-have for every techwear enthusiast.</p><p>While its design captivates, its durability promises a lasting relationship. Crafted with precision and bound with robust stitching, this crop top is designed to withstand the challenges of daily wear, ensuring you look your best, wear after wear.<br></p></div>",
 	"price":18380,
-	"imagePaths":["black-lace-up-crop-top-techwear-955.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "style", "value": "crop top" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "spandex" },
+			{ "name": "material", "value": "nylon" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["black_lace_up_crop_top_1.jpg","black_lace_up_crop_top_2.jpg"],
 	"categories":["top","women"],
-	"extra":"Here's the real web shop for Black Lace Up Crop Top: <a href=\"https://techwear-outfits.com/products/black-lace-up-crop-top\">https://techwear-outfits.com/products/black-lace-up-crop-top</a>"
+	"emailMessage":"Here's the real web shop for Black Lace Up Crop Top: <a href=\"https://techwear-outfits.com/products/black-lace-up-crop-top\">https://techwear-outfits.com/products/black-lace-up-crop-top</a>"
 },
 {
 	"id":14,
 	"name":"Women's Convertible Cargo Pants",
+	"slug":"womens-convertible-cargo-pants",
 	"description":"<div><ul><li>Type: Techwear pants</li><li>Design:&nbsp;Techwear, streetwear</li><li>Technical pants: This techwear pants is&nbsp;the perfect garment to complete your Techwear outfit.</li><li>Premium quality: Reinforced seams, comfortable to wear, soft touch</li><li>Materials: Polyester</li><li>Machine washable: 30&nbsp;°C (86&nbsp;°F)</li></ul><h2><span>Transition with Ease: The Convertible Cargo Pants for Women</span><br></h2><p>Our Convertible Cargo Pants for Women redefine versatility and functionality. With detachable legs, these pants effortlessly transition into a stylish pair of shorts, catering to your comfort and preference with the changing circumstances. These pants are not just a piece of clothing but an innovative solution designed to complement the active lifestyle of modern-day women venturing through the urban landscape.</p><h3>Unveiling a New Era of Flexibility</h3><p>The era of carrying an extra pair of shorts or changing outfits is over. With these Convertible Cargo Pants, you have the flexibility to adapt to varying weather conditions or occasions. Be it a sunny day out or an unexpected rise in temperature, transition from pants to shorts with just a quick zip-off, ensuring you remain comfortable and stylish no matter the situation.</p><h3>Blend of Urban Aesthetics and Practical Design</h3><p>The sleek black color of these Convertible Cargo Pants Womens is emblematic of the techwear and darkwear genre, exuding a futuristic yet practical aura. The cargo pockets add to the urban aesthetics while providing ample storage space for your essentials, bridging the gap between fashion and functionality.</p><p>The Convertible Cargo Pants for Women are designed not only to cater to practical needs but also to seamlessly integrate into your existing wardrobe. Their neutral black color makes them a versatile piece that can be paired with a variety of tops, jackets, and footwear.</p><p>Pair them with a sleek hoodie and combat boots for an edgy techwear look, or a casual tee and sneakers for a relaxed, everyday outfit. The Convertible Cargo Pants offer an array of styling possibilities, allowing you to showcase your unique fashion sense.<br></p></div>",
 	"price":18380,
-	"imagePaths":["convertible-cargo-pants-womens-techwear-813.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "style", "value": "cargo pants" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["convertible_cargo_pant_1.jpg","convertible_cargo_pant_2.jpg","convertible_cargo_pant_3.jpg","convertible_cargo_pant_4.jpg"],
 	"categories":["legwear","women"],
-	"extra":"Here's the real web shop for Women's Convertible Cargo Pants: <a href=\"https://techwear-outfits.com/products/convertible-cargo-pants-womens\">https://techwear-outfits.com/products/convertible-cargo-pants-womens</a>"
+	"emailMessage":"Here's the real web shop for Women's Convertible Cargo Pants: <a href=\"https://techwear-outfits.com/products/convertible-cargo-pants-womens\">https://techwear-outfits.com/products/convertible-cargo-pants-womens</a>"
 },
 {
 	"id":15,
 	"name":"Women's Grunge Pants",
+	"slug":"womens-grunge-pants",
 	"description":"<div><ul><li>Type: Techwear pants</li><li>Design:&nbsp;Techwear, streetwear</li><li>Technical pants: This techwear pants is&nbsp;the perfect garment to complete your Techwear outfit.</li><li>Premium quality: Reinforced seams, comfortable to wear, soft touch</li><li>Materials: Polyester, cotton</li><li>Machine washable: 30&nbsp;°C (86&nbsp;°F)</li></ul><h2><span>Embrace Your Dark Side with Our Grunge Pants Women's Edition</span></h2><p>Step into the ultimate experience of grunge fashion with our Grunge Pants Women's edition. The pants are primarily black but offer a dash of rebellion with a touch of red at the pocket areas. These pants don't just talk; they scream alternative style and individuality.</p><h3>Straps That Make a Statement</h3><p>Tired of blending into the crowd? These Grunge Pants Women's edition feature strategically placed straps that not only add an edge to your look but also offer customizability for your comfort and style. Turn heads as you walk down the street and make your fashion statement loud and clear.</p><p>These pants offer an excellent fit, ensuring you feel as fabulous as you look. Pair it with combat boots for an authentic grunge feel or wear it with high heels for a grunge-glam combo.<br></p></div>",
 	"price":18380,
-	"imagePaths":["grunge-pants-womens-techwear-702.jpg","Sd45eaab4e3774750a95a8156d3ccc567v.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 },
+			{ "name": "3XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "style", "value": "cargo pants" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["grunge_pants_womens_1.jpg","grunge_pants_womens_2.jpg","grunge_pants_womens_3.jpg","grunge_pants_womens_4.jpg"],
 	"categories":["legwear","women"],
-	"extra":"Here's the real web shop for Women's Grunge Pants: <a href=\"https://techwear-outfits.com/products/grunge-pants-womens\">https://techwear-outfits.com/products/grunge-pants-womens</a>"
+	"emailMessage":"Here's the real web shop for Women's Grunge Pants: <a href=\"https://techwear-outfits.com/products/grunge-pants-womens\">https://techwear-outfits.com/products/grunge-pants-womens</a>"
 },
 {
 	"id":16,
 	"name":"Women's Goth Shirt",
+	"slug":"womens-goth-shirt",
 	"description":"<div><ul><li>Type: Techwear&nbsp;shirt</li><li>Design:&nbsp;Street Goth</li><li>Ultra-resistant crop top:&nbsp;Designed with the best materials for a comfortable wear.</li><li>Breathable materials:&nbsp;This crop top is made of polyester, spandex and nylon.</li><li>Suitable for women</li><li>Machine washable: 30&nbsp;°C (86&nbsp;°F)</li></ul><h2><span>Embrace the Dark Elegance of the Women Goth Shirt</span></h2><p>For the urban fashion enthusiast with a penchant for all things gothic, our Women Goth Shirt offers an experience unlike any other. Combining the allure of dark aesthetics with the mystique of Japanese kanji, this shirt is not just a piece of clothing but a statement in itself. Every thread echoes the rich history of gothic culture, while the Japanese kanji lends an exotic touch, making the Women Goth Shirt a masterpiece in darkwear.</p><h3>A Gothic Symphony Infused with Japanese Kanji</h3><p>The standout feature of the Women Goth Shirt is its unique print. The gothic design, infused with kanji, gives it an avant-garde edge, capturing the essence of darkwear while paying homage to Japanese culture. The kanji characters, often associated with deeper meanings and philosophies, add layers of depth to the shirt’s design, making it a conversation starter.</p><p>While the Women Goth Shirt naturally fits within a darkwear or techwear wardrobe, its versatile design ensures it complements a range of styles. Pair the Women Goth Shirt with black cargo pants or a leather skirt to create a dark, sophisticated ensemble. Layer it with a black jacket, and you’re ready for a night out. For a more relaxed look, combine it with jeans and chunky boots.<br></p></div>",
 	"price":14700,
-	"imagePaths":["women-goth-shirt-techwear-550.jpg","392efb039f457155d8cbad479da3287c.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "spandex" },
+			{ "name": "material", "value": "nylon" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["womens_goth_shirt_1.jpg","womens_goth_shirt_2.jpg","womens_goth_shirt_3.jpg","womens_goth_shirt_4.jpg"],
 	"categories":["shirt","women"],
-	"extra":"Here's the real web shop for Women's Goth Shirt: <a href=\"https://techwear-outfits.com/products/women-goth-shirt\">https://techwear-outfits.com/products/women-goth-shirt</a>"
+	"emailMessage":"Here's the real web shop for Women's Goth Shirt: <a href=\"https://techwear-outfits.com/products/women-goth-shirt\">https://techwear-outfits.com/products/women-goth-shirt</a>"
 },
 {
 	"id":17,
 	"name":"White Techwear Jacket",
+	"slug":"white-techwear-jacket",
 	"description":"<div><ul><li>Type: Techwear jacket</li><li>Design:&nbsp;Techwear, Ninja Techwear, Cyberpunk, Military, Futuristic</li><li>Ultra-resistant Techwear Jacket:&nbsp;Made with premium materials that are resistant, flexible and lightweight to preserve your mobility while protecting you from rain and wind.</li><li>Technical clothing: This techwear jacket is equipped with a multitude of storage pockets to easily carry your personal belongings.</li><li>Breathable materials:&nbsp;This techwear jacket made of polyester, cotton and spandex can be worn all year round.</li><li>Suitable for men and women</li><li>Machine washable: 30&nbsp;°C (86&nbsp;°F)</li></ul><h2>Mid-season White Techwear Jacket</h2><p>Dress up in a <strong>white techwear look</strong> with this beautiful light-colored jacket made of lightweight material ideal for everyday comfort but also for physical activities. Complete your look with a white bucket hat and <strong>white techwear pants</strong> for a functional and fashionable look.</p><p>The White Techwear Jacket offers a striking visual appeal with its pristine color that stands out in the urban jungle. Its high-collar design and oversized hood not only add to the visual drama but also serve to protect against the harsh whims of nature.<br><br>The jacket is tailored to accommodate the fast-paced life of the city dweller. Multiple zippered pockets are meticulously placed for secure, easy access. Each one is lined with soft, yet durable fabric to protect sensitive electronics and personal items. The expansive chest pocket is perfect for items needed at a moment’s notice, while side pockets offer a haven for cold hands or a secure spot for your smartphone.<br><br>The White Techwear Jacket is constructed from a selection of premium materials chosen for their resilience and performance. The outer shell is wind-resistant, ensuring that you stay protected from the elements. Beneath this layer lies a breathable membrane that allows for effective air circulation, preventing overheating during high-energy urban pursuits.</p><p>The seamless integration of adjustable elastic cuffs allows you to tailor the jacket to your preferred fit, ensuring maximum comfort without compromising on style.</p><h3>How to style the&nbsp;White Techwear Jacket<br></h3><p>While the White Techwear Jacket is built for performance, it doesn't skimp on style. The reflective accents not only serve a practical purpose in low-light conditions but also add a futuristic edge to the overall design. Whether paired with tapered techwear trousers or layered over a monochrome ensemble, this jacket makes a statement that resonates with the ethos of modern urban fashion.</p></div>",
 	"price":25730,
-	"imagePaths":["white-techwear-jacket-techwear-680.jpg","white-techwear-jacket-techwear-110.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 },
+			{ "name": "3XL", "stock": 10 },
+			{ "name": "4XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "size", "value": "4XL" },
+			{ "name": "style", "value": "hoodie" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "spandex" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["white_techwear_jacket_1.jpg","white_techwear_jacket_2.jpg","white_techwear_jacket_3.jpg"],
 	"categories":["jacket","men","women"],
-	"extra":"Here's the real web shop for White Techwear Jacket: <a href=\"https://techwear-outfits.com/products/techwear-jacket-white\">https://techwear-outfits.com/products/techwear-jacket-white</a>"
+	"emailMessage":"Here's the real web shop for White Techwear Jacket: <a href=\"https://techwear-outfits.com/products/techwear-jacket-white\">https://techwear-outfits.com/products/techwear-jacket-white</a>"
 },
 {
 	"id":18,
 	"name":"Women's Techwear Black One Shoulder Sleeve",
+	"slug":"womens-techwear-black-one-shoulder-sleeve",
 	"description":"<div><ul><li>Black one shoulder sleeve techwear top for women</li><li>Regular fit designed for women</li><li>High-performance polyester and natural cotton for active lifestyles</li><li>Model is 178cm tall, 65kg wearing a size L</li><li><strong>True to size Canada</strong></li></ul><h2>Techwear Women's Black One Shoulder Sleeve: The Ultimate <strong>Asymmetric Futuristic Top</strong></h2><p>Embrace the cutting-edge of fashion with our Techwear Women's Black One Shoulder Sleeve. This top is a perfect blend of style and innovation, featuring a sleek, asymmetric design that's sure to turn heads. Crafted from high-quality, breathable fabric, this futuristic top keeps you comfortable all day long.</p><p>The single sleeve adds a touch of edginess to your look, while the black color ensures versatility. Whether you're attending a tech conference or a night out with friends, this top is your go-to choice. Pair it with your favorite techwear pants or a skirt for a complete, avant-garde ensemble.</p><h2>Make a Statement with our <strong>Single Sleeve Cyberpunk Shirt</strong></h2><p>Stand out from the crowd with our Single Sleeve Cyberpunk Shirt. This top is designed for the bold and daring, featuring a unique, one-shoulder design that screams 'cutting-edge.' The lightweight, stretchy fabric moves with you, providing comfort and flexibility throughout your day.</p><p>The black color and sleek lines give this top a futuristic vibe that's perfect for any techno-enthusiast. Dress it up with a pair of sleek, black pants, or dress it down with your favorite jeans. No matter how you style it, this top is sure to make a statement.</p><p>Complete your techwear look with the Techwear Women's Black One Shoulder Sleeve for an edgy, futuristic aesthetic. Pair with the Techwear One Sleeve Jacket with Zipper and other Women Techwear Shirts for a polished urban style.</p></div>",
 	"price":18300,
-	"imagePaths":["women-wearing-techwear-women_s-black-one-_shoulder-sleeve-front-view-canada.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["womens_black_one_shoulder_sleeve_1.jpg","womens_black_one_shoulder_sleeve_2.jpg","womens_black_one_shoulder_sleeve_3.jpg"],
 	"categories":["top","women"],
-	"extra":"Here's the real web shop for Women's Techwear Black One Shoulder Sleeve: <a href=\"https://techwearcanada.ca/products/techwear-womens-black-one-shoulder-sleeve\">https://techwearcanada.ca/products/techwear-womens-black-one-shoulder-sleeve</a>"
+	"emailMessage":"Here's the real web shop for Women's Techwear Black One Shoulder Sleeve: <a href=\"https://techwearcanada.ca/products/techwear-womens-black-one-shoulder-sleeve\">https://techwearcanada.ca/products/techwear-womens-black-one-shoulder-sleeve</a>"
 },
 {
 	"id":19,
 	"name":"Techwear Belt Buckle Necklace",
+	"slug":"techwear-belt-buckle-necklace",
 	"description":"<h2><b>Elevate your style with this techwear belt buckle necklace, designed to add a unique and edgy touch to any outfit.</b></h2><ul><li><strong>Material</strong>:&nbsp;PU leather</li><li><strong>Length: </strong>26-35cm</li><li><strong>Women's techwear.</strong></li><li><strong>Free worldwide shipping.</strong></li></ul>",
 	"price":9600,
-	"imagePaths":["techwear-belt-buckle-necklace_900x.jpg","belt-buckle-necklace-techwear-228_720x_6c7017ea-07a1-4873-8721-78aeaeec98b7_900x.jpg","belt-buckle-necklace-techwear-665_720x_10d4a15e-62ce-4c65-ab62-7d47ff181678_900x.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "silver", "stock": 10 },
+			{ "name": "black", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "style", "value": "choker" },
+			{ "name": "material", "value": "leather" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["belt_buckle_necklace_1.jpg","belt_buckle_necklace_2.jpg","belt_buckle_necklace_3.jpg"],
 	"categories":["accessory","women"],
-	"extra":"Here's the real web shop for Techwear Belt Buckle Necklace: <a href=\"https://techwear.store/products/techwear-belt-buckle-necklace\">https://techwear.store/products/techwear-belt-buckle-necklace</a>"
+	"emailMessage":"Here's the real web shop for Techwear Belt Buckle Necklace: <a href=\"https://techwear.store/products/techwear-belt-buckle-necklace\">https://techwear.store/products/techwear-belt-buckle-necklace</a>"
 },
 {
 	"id":20,
 	"name":"Techwear Warcore Gloves",
+	"slug":"techwear-warcore-gloves",
 	"description":"<h2><strong><span>These techwear warcore gloves are stylish and functional options for outdoor enthusiasts and urban explorers alike.</span></strong></h2><ul><li><strong>Techwear gloves</strong>: These techwear gloves are perfect to complete your techwear outfits.</li><li><b>Material</b>:&nbsp;Microfiber.</li><li><strong>Women's techwear and men's techwear.</strong></li><li><strong>Free worldwide shipping.</strong></li></ul>",
 	"price":15360,
-	"imagePaths":["techwear-warcore-gloves-5_900x.jpg","techwear-warcore-gloves-2_900x.jpg","techwear-warcore-gloves-3_900x.jpg","techwear-warcore-gloves-4_900x.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "style",
+		"type": "text",
+		"variants": [
+			{ "name": "half finger", "stock": 10 },
+			{ "name": "full finger", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "style", "value": "gloves" },
+			{ "name": "material", "value": "microfiber" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["techwear_warcore_gloves_1.jpg","techwear_warcore_gloves_2.jpg","techwear_warcore_gloves_3.jpg","techwear_warcore_gloves_4.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Techwear Warcore Gloves: <a href=\"https://techwear.store/products/techwear-warcore-gloves\">https://techwear.store/products/techwear-warcore-gloves</a>"
+	"emailMessage":"Here's the real web shop for Techwear Warcore Gloves: <a href=\"https://techwear.store/products/techwear-warcore-gloves\">https://techwear.store/products/techwear-warcore-gloves</a>"
 },
 {
 	"id":21,
 	"name":"Ribbon Cargo Pants",
+	"slug":"ribbon-cargo-pants",
 	"description":"<div><h2><span>Spice up your looks: discover our colorful men's techwear&nbsp;cargo pants.</span><br></h2><p>Introducing the Ribbon Cargo Pants, a powerful fusion of East meets West, a seamless blend of Japanese techwear aesthetics with a vibrant dash of Chinese streetwear. Imagine yourself, an avant-garde urban dweller, boldly navigating the cityscape in these striking red and black streetwear cargo pants, a refreshing break from the monotony of your regular black wardrobe.</p><p>As you stride through the urban jungle, each step is a testament to the fearless spirit of the city, the many ribbons attached to your pants dancing in unison with your movement, casting a dynamic, airy vibe. Picture the envious glances you attract, the whispers of admiration trailing in your wake. The Ribbon Cargo Pants are more than just a garment; they are a statement, a declaration of your audacious style and individuality.</p><p>Embodying the spirit of techwear joggers, these techwear cargo joggers are designed to move with you, reflecting your rhythm, pace, and style. This is the epitome of fashion meeting functionality, where the cargo pants' ribbons serve as a style element and a testament to your energetic lifestyle. Comfortable yet captivating, practical yet fashionable, these ribbon pants are the perfect companion for your urban adventures.</p><p>The ribbon cargo joggers don't just look good; they feel fantastic. Crafted with an elastic waistband and drawstrings, they hug your body with a snug fit, tapering to a stylish slim fit around the calves and ankles. Picture them with your freshest sneakers and socks, elevating your streetwear game to unparalleled heights.</p><ul><li><span>Ultra-resistant ribbon joggers: Made with high-quality materials that are durable, flexible and lightweight to preserve your mobility while keeping you warm.</span></li><li><span>Technical Clothing: These techwear&nbsp;trousers will protect you from the elements and complete your techwear outfit.&nbsp;</span></li><li><span>Design: Techwear, Ninja Techwear, Cyberpunk Fashion, Japanese Techwear, Urban Style</span></li><li><span>Inspirations: Hip-Hop Pants</span></li></ul><div><h3>Meet the ultimate streetwear cargo pants: Style, Comfort, and Practicality Combined.</h3><p>Donning these Ribbon Pants is not just about embracing a trend; it's about aligning yourself with an urban tribe that is daring, bold, and unapologetically stylish. Experience the freedom of movement, the confidence of standing out, and the comfort of a perfect fit. This isn't just an addition to your wardrobe; it's an upgrade to your lifestyle. These are the Ribbon Cargo Pants, and they are here to redefine streetwear.</p></div></div>",
 	"price":21120,
-	"imagePaths":["ribboncargopants-1.jpg","ribbon-cargo-pants-7.jpg","ribbon-cargo-pants-5.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "style", "value": "cargo pants" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["ribbon_cargo_pants_1.jpg","ribbon_cargo_pants_2.jpg","ribbon_cargo_pants_3.jpg","ribbon_cargo_pants_4.jpg","ribbon_cargo_pants_5.jpg","ribbon_cargo_pants_6.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for Ribbon Cargo Pants: <a href=\"https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-cargo-pants\">https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-cargo-pants</a>"
+	"emailMessage":"Here's the real web shop for Ribbon Cargo Pants: <a href=\"https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-cargo-pants\">https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-cargo-pants</a>"
 },
 {
 	"id":22,
 	"name":"White Techwear Pants",
+	"slug":"white-techwear-pants",
 	"description":"<div><h2><span>Unleash the urban ninja: discover our white men's techwear pants for active lifestyles.</span></h2><p>Introducing the White Techwear Pants, an epitome of cutting-edge fashion fused with practical utility, crafted for the intrepid and stylish. Picture yourself navigating the labyrinthine streets of the city, the sun gleaming off your sleek, white pants, a sight that rivals the urban landscape's brilliance. These trend-setting techwear cargo <strong>joggers</strong> are an outfit and a statement of your persona, radiating confidence and style.</p><p>Drawing inspiration from the avant-garde aesthetics of Japanese streetwear and technical clothing, our tree-tone cargo&nbsp;pants&nbsp;embody the essence of urban exploration. With a blend of stark white, deep black, and sky blue, they offer a visual impact that's hard to forget. Designed with comfort and agility in mind, these joggers are airy and lightweight, ideal for scaling buildings and engaging in outdoor ninja activities. They let you move, climb, and run with unhindered ease. That's nothing short of liberating.</p><p>Detailing is at the heart of these stylish joggers. Featuring straps with buckles attached to the thigh, they add a tactical texture, an homage to the spirit of urban survival. They are the perfect marriage of style and practicality without sacrificing comfort. The slim, straight fit perfectly complements the tapered ankle design, giving you an undeniably urban silhouette.</p><p>Every feature of these pants serves a purpose. The elastic waistband and drawstrings provide the perfect adjustment, adhering to your unique form. Large cargo pockets offer ample space for carrying your essentials while on the go.&nbsp;</p><p>The White Techwear Pants are your perfect mid-season or summer outfit, ready to accompany you in your sun-soaked city exploration. Experience the thrill of discovery, the freedom of movement, and the aura of style, all in one pair of pants.</p><ul><li><span>Ultra-resistant joggers: Made with high-quality&nbsp;polyester that is durable, flexible and lightweight to preserve your mobility while keeping you warm.</span></li><li><span>Technical Clothing: These&nbsp;<strong>techwear cargo&nbsp;pants</strong> protect you from the elements and complete your techwear outfits.&nbsp;</span></li><li><span>Design: Cyberpunk Techwear, Ninja Clothing, Japanese Techwear, Dark Wear, Urban Style</span></li><li><span>Inspirations:&nbsp;Nike Techwear Pants, Scarlxrd Outfits</span></li></ul><div><h3><span>Experience unmatched agility: lightweight&nbsp;pants for the modern techwear ninja.</span></h3><p><span>Donning these shining white techwear joggers is a testament to your audacity, a pledge to explore, conquer, and rule the urban jungle with unyielding resolve and unparalleled fashion sense.&nbsp;</span><span>And yet, these are not just functional pants but a versatile style statement that will redefine your wardrobe.</span></p></div></div>",
 	"price":26900,
-	"imagePaths":["whitetechwearpants-1.jpg","whitetechwearpants-15.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "XS", "stock": 10 },
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 },
+			{ "name": "3XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "XS" },
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["white_techwear_pants_1.jpg","white_techwear_pants_2.jpg","white_techwear_pants_3.jpg","white_techwear_pants_4.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for White Techwear Pants: <a href=\"https://www.offwrld-techwear.com/collections/techwear-pants/products/white-techwear-pants\">https://www.offwrld-techwear.com/collections/techwear-pants/products/white-techwear-pants</a>"
+	"emailMessage":"Here's the real web shop for White Techwear Pants: <a href=\"https://www.offwrld-techwear.com/collections/techwear-pants/products/white-techwear-pants\">https://www.offwrld-techwear.com/collections/techwear-pants/products/white-techwear-pants</a>"
 },
 {
 	"id":23,
 	"name":"Ribbon Pants",
+	"slug":"ribbon-pants",
 	"description":"<div><h2>Blend stealth and style: ninja-inspired Ribbon Pants for urban trendsetters.</h2><p>Introducing the Ribbon Pants, a seamless fusion of technology and style designed for the fearless urban explorer. Crafted with the contemporary gentleman in mind, these men's technical pants embody the spirit of innovation and sophistication that transcends the realms of fashion.</p><p>Envision yourself navigating the cityscape, adorned in these black urban joggers that exude both style and intimidation. These&nbsp;black joggers&nbsp;effortlessly integrate with your techwear outfits, transforming you into a modern-day ninja. Intricate streetwear ribbons, featuring captivating lettering, add texture, scale, and cachet to the piece, reminiscent of the iconic Japanese Harajuku streetwear aesthetic.</p><p>Imagine pairing these urban trousers with a sleek black leather jacket and techwear sneakers for an elegant and classy all-black ensemble. You'll become the epitome of urban sophistication, commanding attention and respect with every step you take.</p><p>Our Ribbon Pants are designed with a straight baggy fit, ensuring comfort and functionality for any activity the day may bring. From cruising the city with friends to scaling buildings and delving into the world of urban exploration, these techwear pants are your trusted companion.</p><ul><li><span>Ultra-resistant techwear pants: Made with high-quality materials that are durable, flexible and lightweight to preserve your mobility while keeping you warm.</span></li><li><span>Technical Clothing: These ribbon trousers will protect you from the elements and complete your techwear outfit.&nbsp;</span></li><li><span>Design: Techwear, Ninja Techwear, Cyberpunk Fashion, Japanese Techwear, Harajuku<span>Urban&nbsp;</span>Style</span></li><li><span>Inspirations: <strong>GKA Clothing</strong></span></li></ul><div><h3>Make a statement in black urban joggers: techwear pants for bold expression.</h3><p><span>Experience the unparalleled fusion of fashion and function that our Ribbon Pants provide. Dare to make a statement, elevate your style, and embody the essence of the modern urban dweller. Your journey awaits.</span></p></div></div>",
 	"price":26900,
-	"imagePaths":["ribbon-pants-1.jpg","qdz.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "XXL", "stock": 10 },
+			{ "name": "3XL", "stock": 10 },
+			{ "name": "4XL", "stock": 10 },
+			{ "name": "5XL", "stock": 10 }
+
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "size", "value": "3XL" },
+			{ "name": "size", "value": "4XL" },
+			{ "name": "size", "value": "5XL" },
+			{ "name": "style", "value": "cargo pants" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["ribbon_pants_1.jpg","ribbon_pants_2.jpg","ribbon_pants_3.jpg","ribbon_pants_4.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for Ribbon Pants: <a href=\"https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-pants\">https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-pants</a>"
+	"emailMessage":"Here's the real web shop for Ribbon Pants: <a href=\"https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-pants\">https://www.offwrld-techwear.com/collections/techwear-pants/products/ribbon-pants</a>"
 },
 {
 	"id":24,
-	"name":"Techwear Japanese Streetwear Baseball Cap",
+	"name":"B-Type 05R Black Baseball Cap",
+	"slug":"b-type-05r-black-baseball-cap",
 	"description":"<div><h3>Product details</h3><br><div><b>Fabric type: </b></div><div><span>100% Acrylic</span></div><div><b>Care instructions: </b></div><div><span>Hand Wash Only</span></div><div><b>Origin: </b></div><div><span>Imported</span></div><div><b>Closure type: </b></div><div><span>Buckle</span></div><div><b>Country of Origin: </b></div><div><span>China</span></div><hr><h3>About this item</h3><br><ul><li><span>Acrylic blend twill structured baseball cap.</span></li><li><span>Embroidered tech triangle logo on front.</span></li><li><span>Debossed triangle logo on rear buckle.</span></li><li><span>Adjustable diameter 7 \"-7.5\" (55-58cm).</span></li><li><span>Brim length 2.75\" (7cm).</span></li></ul></div>",
 	"price":12480,
-	"imagePaths":["71ZpM65PLEL._AC_SX569_.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "baseball cap" },
+			{ "name": "brand", "value": "Fabric Of The Universe" }
+	],
+	"imagePaths":["b_type_05r_black_baseball_cap_1.jpg","b_type_05r_black_baseball_cap_2.jpg","b_type_05r_black_baseball_cap_3.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Techwear Japanese Streetwear Baseball Cap: <a href=\"https://www.amazon.com/Fabric-Universe-Triangle-Techwear-Streetwear/dp/B09QBZT8DN\">https://www.amazon.com/Fabric-Universe-Triangle-Techwear-Streetwear/dp/B09QBZT8DN</a>"
+	"emailMessage":"Here's the real web shop for B-Type 05R Black Baseball Cap: <a href=\"https://www.fabricoftheuniverse.com/products/b-type-05r-black-cap\">https://www.fabricoftheuniverse.com/products/b-type-05r-black-cap</a>"
 },
 {
 	"id":25,
 	"name":"Men's Reflective Punk Rock Street Harem Pants",
+	"slug":"mens-reflective-punk-rock-street-harem-pants",
 	"description":"<div><h3>Product details</h3><br><div><b>Fabric type: </b></div><div><span>95 polyester, 5% Spandex</span></div><div><b>Care instructions: </b></div><div><span>Machine Wash</span></div><div><b>Closure type: </b></div><div><span>Drawstring</span></div><div><b>Rise style: </b></div><div><span>Mid Rise</span></div><hr><h3>About this item</h3><br><ul><li><span>MATERIAL: 95 polyester, 5% Spandex, breathable and comfortable high quality fabric</span></li><li><span>Reflective Strips: Sewing with unique 3D three-dimensional reflective strips, Better visibility in the dark or at night, Improved Safety</span></li><li><span>FEATURES: Elastic waist, adjustable drawstring, tapered leg casual design there is more room for thighs and legs, adjustable ankle cuffs, easy to pull on and off, perfect for daily wear</span></li><li><span>Multi-Pockets: Two side slip pockets, two front flap pockets and two knee flap side pockets.Six pockets for storage of various items</span></li><li><span>MATCH: Men's adjustable beam cuffs pants, easily to match with sweater, street dance, t-shirts, sneakers and others. It can match almost all your clothes</span></li></ul></div>",
 	"price":13800,
-	"imagePaths":["61M87m2g92L._AC_SY550_.jpg","61I-rN1nrPL._AC_SX569_.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "red", "stock": 10 },
+			{ "name": "#8e032e", "stock": 10 },
+			{ "name": "black", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "spandex" },
+			{ "name": "brand", "value": "Nutriangee" }
+	],
+	"imagePaths":["street_reflective_technical_jogger_1.jpg","street_reflective_technical_jogger_2.jpg","street_reflective_technical_jogger_3.jpg","street_reflective_technical_jogger_4.jpg"],
 	"categories":["legwear","men"],
-	"extra":"Here's the real web shop for Men's Reflective Punk Rock Street Harem Pants: <a href=\"https://www.amazon.com/Nutriangee-Street-Reflective-Technical-Jogger/dp/B09Z2QR1JV\">https://www.amazon.com/Nutriangee-Street-Reflective-Technical-Jogger/dp/B09Z2QR1JV</a>"
+	"emailMessage":"Here's the real web shop for Men's Reflective Punk Rock Street Harem Pants: <a href=\"https://www.amazon.com/Nutriangee-Street-Reflective-Technical-Jogger/dp/B09Z2QR1JV\">https://www.amazon.com/Nutriangee-Street-Reflective-Technical-Jogger/dp/B09Z2QR1JV</a>"
 },
 {
 	"id":26,
-	"name":"Techwear Graphic Cyberpunk Face Shield Protection Goggle",
+	"name":"GS-03 Lightweight Goggles",
+	"slug":"gs-03-lightweight-goggles",
 	"description":"<div><h3>Product details</h3><br><div><b>Brand: </b></div><div><span>Fabric of the Universe</span></div><div><b>Color: </b></div><div><span>Gs-03</span></div><div><b>Frame Type: </b></div><div><span>Full Rim</span></div><div><b>Frame Material: </b></div><div><span>Plastic</span></div><div><b>Special Feature: </b></div><div><span>Black shaded, Lightweight, Unique graphics</span></div><hr><h3>About this item</h3><br><ul><li><span>Black shaded face shields with signature graphics</span></li><li><span>Enhance personal protection with a unique style</span></li><li><span>Great accessory for futuristic cyberpunk costumes</span></li><li><span>A fab manner to enhance your personal protection and appearance fashionable at the identical time</span></li></ul></div>",
 	"price":3650,
-	"imagePaths":["61hxyG-1MuL._SX522_.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "glasses" },
+			{ "name": "material", "value": "plastic" },
+			{ "name": "brand", "value": "Fabric Of The Universe" }
+	],
+	"imagePaths":["gs_03_goggles_1.jpg","gs_03_goggles_2.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Techwear Graphic Cyberpunk Face Shield Protection Goggle: <a href=\"https://www.amazon.com/Fabric-Universe-Techwear-Cyberpunk-Protection/dp/B0BGHBJHQG\">https://www.amazon.com/Fabric-Universe-Techwear-Cyberpunk-Protection/dp/B0BGHBJHQG</a>"
+	"emailMessage":"Here's the real web shop for GS-03 Lightweight Goggles: <a href=\"https://www.fabricoftheuniverse.com/collections/face-wear/products/gs-03-lightweight-goggles\">https://www.fabricoftheuniverse.com/collections/face-wear/products/gs-03-lightweight-goggles</a>"
 },
 {
 	"id":27,
 	"name":"Techwear Cyberpunk Graphic Keychain Hang Tag",
+	"slug":"techwear-cyberpunk-graphic-keychain-hang-tag",
 	"description":"<div><h3>Product details</h3><br><div><b>Origin: </b></div><div><span>Imported</span></div><div><b>Country of Origin: </b></div><div><span>China</span></div><hr><h3>About this item</h3><br><ul><li><span>Metal carabiner is durable and stylish.</span></li><li><span>Thick nylon strap with clear graphic prints.</span></li></ul></div>",
 	"price":7500,
-	"imagePaths":["71GCagAa1gL._AC_SX569_.jpg","71qAweCUQTL._AC_SX569_.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "belt lanyard" },
+			{ "name": "style", "value": "keychain tag" },
+			{ "name": "brand", "value": "Fabric Of The Universe" }
+	],
+	"imagePaths":["keychain_hang_tag_1.jpg","keychain_hang_tag_2.jpg"],
 	"categories":["accessory"],
-	"extra":"Here's the real web shop for Techwear Cyberpunk Graphic Keychain Hang Tag: <a href=\"https://www.amazon.com/Fabric-Universe-Techwear-Cyberpunk-Keychain/dp/B0BXH58FY6\">https://www.amazon.com/Fabric-Universe-Techwear-Cyberpunk-Keychain/dp/B0BXH58FY6</a>"
+	"emailMessage":"Here's the real web shop for Techwear Cyberpunk Graphic Keychain Hang Tag: <a href=\"https://www.fabricoftheuniverse.com/products/cbr-002-cp-hang-tag-keychain-set\">https://www.fabricoftheuniverse.com/products/cbr-002-cp-hang-tag-keychain-set</a>"
 },
 {
 	"id":28,
 	"name":"Techwear Shirt Japanese Streetwear Gothic Hoodie",
+	"slug":"techwear-shirt-japanese-streetwear-gothic-hoodie",
 	"description":"<div><h3>Product details</h3><br><div><b>Fabric type: </b></div><div><span>100% Cotton</span></div><div><b>Care instructions: </b></div><div><span>Wash in Cold Water, Avoid Dryer</span></div><div><b>Origin: </b></div><div><span>Imported</span></div><div><b>Closure type: </b></div><div><span>Pull On</span></div><hr><h3>About this item</h3><br><ul><li><span>[High-quality fabric and comfort]: Techwear Shirt is made of 90% high-quality cotton and 10% high-quality Polyester material. The japanese streetwear men shirt is very comfortable and breathable.</span></li><li><span>[Design features of tshirts for mens graphic] This shirt is not only a summer T-shirt but also a hoodie, because it is thin, it is especially suitable for summer.This men graphic t is suitable for all figures and fashion trends. XYXIONGMAO unique printing design is printed with high-quality ink, which will not crack or fade. We have an amazing T-shirt design that everyone can like.</span></li><li><span>[Cool t shirts for men type and applicable occasions] Streetwear t shirts for men are Japanese hip hop style. Cool shirts are casual clothing, suitable for daily leisure activities, party orgy, sports jogging, hiking, exercise cycling, street fashion, surfing, skating and other leisure sports.</span></li><li><span>[tees for men techwear]: This XYXIONGMAOT shirt has a strong gothic techwear style .men's novelty t-shirts use a spliced and contrasting design graphic streetwear , while T-shirts use pocket elements and elastic cords as decorative design, and T-shirts use a hooded design to highlight the casual fashion trend of hip-hop Tooling style.</span></li><li><span>casual T-shirt</span></li></ul></div>",
 	"price":11500,
-	"imagePaths":["71xePvEWl+L._AC_SX569_.jpg","71sLlgC0CrL._AC_SX569_.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "2XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "style", "value": "hoodie" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "brand", "value": "Techwear" }
+	],
+	"imagePaths":["streetwear_gothic_hoodie_1.jpg","streetwear_gothic_hoodie_2.jpg","streetwear_gothic_hoodie_3.jpg","streetwear_gothic_hoodie_4.jpg"],
 	"categories":["shirt","men","women"],
-	"extra":"Here's the real web shop for Techwear Shirt Japanese Streetwear Gothic Hoodie: <a href=\"https://www.amazon.com/XYXIONGMAO-Techwear-Cyberpunk-Streetwear-Short-Sleeved/dp/B09TYR417X\">https://www.amazon.com/XYXIONGMAO-Techwear-Cyberpunk-Streetwear-Short-Sleeved/dp/B09TYR417X</a>"
+	"emailMessage":"Here's the real web shop for Techwear Shirt Japanese Streetwear Gothic Hoodie: <a href=\"https://www.amazon.com/XYXIONGMAO-Techwear-Cyberpunk-Streetwear-Short-Sleeved/dp/B09TYR417X\">https://www.amazon.com/XYXIONGMAO-Techwear-Cyberpunk-Streetwear-Short-Sleeved/dp/B09TYR417X</a>"
 },
 {
 	"id":29,
 	"name":"Men's T-Shirt with Laser Printed Cross Wings Pattern",
+	"slug":"mens-tshirt-laser-printed-cross-wings-pattern",
 	"description":"<div><p>CT719 Men T-shirt with laser-printed cross-wing pattern</p><div><ul><li>Cool T-shirt from CIPO &amp; BAXX for men</li><li>Made of cotton and elasthan high quality</li><li>Pleasantly portable thanks to the circular neckline</li><li>Super combinable to versatile leisure looks</li></ul></div><div>It could hardly be gaudier. This<span>&nbsp;M</span><span>It laser -printed&nbsp;</span>T-shirt from CIPO &amp; BAXX is a dream for everyone who likes it extravagant and cool. It comes with a classic circular neckline and, thanks to the production of cotton and Elasthan, offers the best comfort at all times.</div></div>",
 	"price":9990,
-	"imagePaths":["CT719_BLACK.jpg","CT719_BLACK_2.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "2XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CT719_1.jpg","CT719_2.jpg","CT719_3.jpg","CT719_4.jpg"],
 	"categories":["shirt","men"],
-	"extra":"Here's the real web shop for Men's T-Shirt with Laser Printed Cross Wings Pattern: <a href=\"https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-polo-CT719-BLACK\">https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-polo-CT719-BLACK</a>"
+	"emailMessage":"Here's the real web shop for Men's T-Shirt with Laser Printed Cross Wings Pattern: <a href=\"https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-polo-CT719-BLACK\">https://www.cipoandbaxx.hu/Cipo-Baxx-divatos-ferfi-polo-CT719-BLACK</a>"
 },
 {
 	"id":30,
 	"name":"Men's T-Shirt with Large Print",
+	"slug":"mens-tshirt-large-print",
 	"description":"<div><p>CT673 Men's t-shirt with large print</p><ul><li>Cool t-shirt by Cipo &amp; Baxx for men</li><li>Made of cotton and elastane absolutely comfortable to wear</li><li>A real highlight with cool prints and cross elements</li><li>Classic round neckline does not constrict at the neck</li><li>Unmistakably a great eye-catcher in your free time</li></ul><p>The Cipo &amp; Baxx brand presents a trendy T-shirt for men here. Thanks to the casual design with a cool all-over print and brand lettering, the shirt is a real eye-catcher. Fashionably hip, it can be combined with many outfits and should therefore not be missing in any wardrobe.<br><br><span>(Color deviations are possible due to different monitor settings and lighting conditions when taking photos)</span><br></p></div>",
 	"price":10990,
-	"imagePaths":["CT673_WHITE.jpg","CT673_WHITE_2.jpg","CT673_WHITE_3.jpg"],
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "white", "stock": 10 },
+			{ "name": "black", "stock": 10 }
+		]
+	},
+	{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "2XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["CT673_1.jpg","CT673_2.jpg","CT673_3.jpg","CT673_4.jpg","CT673_5.jpg","CT673_6.jpg"],
 	"categories":["shirt","men"],
-	"extra":"Here's the real web shop for Men's T-Shirt with Large Print: <a href=\"https://www.cipoandbaxx.hu/CT673-DIVATOS-FERFI-ROVID-UJJU-POLO-FEHER\">https://www.cipoandbaxx.hu/CT673-DIVATOS-FERFI-ROVID-UJJU-POLO-FEHER</a>"
+	"emailMessage":"Here's the real web shop for Men's T-Shirt with Large Print: <a href=\"https://www.cipoandbaxx.hu/CT673-DIVATOS-FERFI-ROVID-UJJU-POLO-FEHER\">https://www.cipoandbaxx.hu/CT673-DIVATOS-FERFI-ROVID-UJJU-POLO-FEHER</a>"
 },
 {
 	"id":31,
 	"name":"Gibous Boa Belt Outer",
+	"slug":"gibous-boa-belt-outer",
 	"description":"<p>New outerwear on sale from gibous!</p><p>Accentuate the fluffy fur with a leather belt.</p><p> Not only is it warm, but it is also an item with a finished look that is typical of gibous.</p><div>With its easy-to-use color scheme, this is a piece that will be in full use this coming season.</div><div> It has a calm image, so it's great that it makes you look mature!</div><p>Available in two sizes, so you can wear it in whichever size you prefer.</p><p> Please take this opportunity to purchase.<br/><br/><strong>【size】</strong></p><p> Medium size<br/>Length 71cm<br/>Width: 75cm<br/>Shoulder width: 68cm<br/>Sleeve length: 62cm</p><p>Large size<br/>Length 77cm<br/>Width 78cm<br/>Shoulder width: 70cm<br/>Sleeve length: 63cm</p>",
 	"price":21800,
-	"imagePaths":["BO1.jpg","BO2.jpg","BO3.jpg","BO4.jpg","BO5.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "style", "value": "coat" },
+			{ "name": "brand", "value": "Gibous" }
+	],
+	"imagePaths":["boa_belt_outer_1.jpg","boa_belt_outer_2.jpg","boa_belt_outer_3.jpg","boa_belt_outer_4.jpg","boa_belt_outer_5.jpg"],
 	"categories":["jacket","men","women"],
-	"extra":"Here's the real web shop for Gibous Boa Belt Outer: <a href=\"https://gibous.store/en/products/gibous-boa-belt-outer\">https://gibous.store/en/products/gibous-boa-belt-outer</a>"
+	"emailMessage":"Here's the real web shop for Gibous Boa Belt Outer: <a href=\"https://gibous.store/en/products/gibous-boa-belt-outer\">https://gibous.store/en/products/gibous-boa-belt-outer</a>"
 },
 {
 	"id":32,
 	"name":"Gibous × QOOZA Line Wappen Track Jacket black",
+	"slug":"gibous-qooza-line-wappen-track-jacket-black",
 	"description":"<div><p><span>Introducing a new track jacket from the gibous x QOOZA collaboration♛</span></p><p><br/></p><p><span>The unique design of the black body with two lines and an original collaboration patch on top is the highlight☑</span></p><p><br/></p><p><span>The zipper is double-zippered, so it can be changed to various silhouettes.</span></p><p><br/></p><p><span>The zipper part uses gibous' original G zipper!!</span></p><p><br/></p><p><span>The QOOZA logo is printed on the front as a single point.</span></p><p><br/></p><p><span>It goes well with girly and street items, and we also recommend pairing it with denim or sweatpants for a casual look.</span></p><p><br/></p><p><span>This is a recommended item that will make you look great with just one piece.</span></p><p><br/></p><p><span>It can be worn by both men and women☑</span></p><p><br/></p><p><span>Please take this opportunity to purchase.</span></p><p><br/></p><p><span>*The multi-colored version is a limited edition color for QOOZA.</span><br/></p><p><span>It is not sold at gibous. Thank you for your understanding.</span></p><p><br/></p><p><span>*To customers who purchase size L</span><br/></p><p><span>Due to production reasons, the outer bag is labeled as size M, but the contents are size L, so please rest assured.</span></p><p><br/></p><p><span>[Material]</span></p><p><br/></p><p><span>95% polyester, 5% polyurethane</span></p></div>",
 	"price":34200,
-	"imagePaths":["QOOZA__1.jpg","QOOZA__2.jpg","QOOZA__3.jpg","QOOZA__4.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "Short", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "L" },
+			{ "name": "style", "value": "track suit" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "polyurethane" },
+			{ "name": "brand", "value": "Gibous" }
+	],
+	"imagePaths":["QOOZA_1.jpg","QOOZA_2.jpg","QOOZA_3.jpg","QOOZA_4.jpg"],
 	"categories":["jacket","men","women"],
-	"extra":"Here's the real web shop for Gibous × QOOZA Line Wappen Track Jacket black: <a href=\"https://gibous.store/en/products/gibous-qooza-line-wappen-track-jacket-black\">https://gibous.store/en/products/gibous-qooza-line-wappen-track-jacket-black</a>"
+	"emailMessage":"Here's the real web shop for Gibous × QOOZA Line Wappen Track Jacket black: <a href=\"https://gibous.store/en/products/gibous-qooza-line-wappen-track-jacket-black\">https://gibous.store/en/products/gibous-qooza-line-wappen-track-jacket-black</a>"
 },
 {
 	"id":33,
 	"name":"Gibous Snake Bone Belt Fur Leopard Shoulder Bag",
+	"slug":"gibous-snake-bone-belt-fur-leopard-shoulder-bag",
 	"description":"<div><p><span>A new bag from gibous has arrived♛</span></p><p><br/></p><p><span>This is a shoulder bag with the currently trendy animal pattern.</span></p><p><br/></p><p><span>This is the animal fur version of the popular \"gibous snake bone belt shoulder bag\"!!</span></p><p><br/></p><p><span>The silver snake bone parts are cute, and the large belt in the middle is an eye-catching design.</span></p><p><br/></p><p><span>The design stands out with simple outfits☑</span></p><p><br/></p><p><span>We recommend pairing this bag with an all-black outfit!! Please take this opportunity to purchase it.</span></p><p><br/></p><p><span>[Material]</span></p><p><br/></p><p><span>Leather part: PU leather</span><br/><span>Fur part: Polyester</span></p></div>",
 	"price":34200,
-	"imagePaths":["BD4BE225-4F10-4391-AB5D-D1A7B53AE945.jpg","1A358F78-8ED2-41D2-BB88-BA05C34E63BA.jpg","12B489EC-A642-40D3-A28B-C5E9AA933FB3.jpg","65692D48-E5D7-4D12-98D7-12DE4901A9A0.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "shoulder bag" },
+			{ "name": "material", "value": "leather" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "brand", "value": "Gibous" }
+	],
+	"imagePaths":["snake_leopard_shoulder_bag_1.jpg","snake_leopard_shoulder_bag_2.jpg","snake_leopard_shoulder_bag_3.jpg","snake_leopard_shoulder_bag_4.jpg"],
 	"categories":["accessory","women"],
-	"extra":"Here's the real web shop for Gibous Snake Bone Belt Fur Leopard Shoulder Bag: <a href=\"https://gibous.store/en/products/gibous-snake-bone-belt-fur-leopard-shoulder-bag\">https://gibous.store/en/products/gibous-snake-bone-belt-fur-leopard-shoulder-bag</a>"
+	"emailMessage":"Here's the real web shop for Gibous Snake Bone Belt Fur Leopard Shoulder Bag: <a href=\"https://gibous.store/en/products/gibous-snake-bone-belt-fur-leopard-shoulder-bag\">https://gibous.store/en/products/gibous-snake-bone-belt-fur-leopard-shoulder-bag</a>"
 },
 {
 	"id":34,
 	"name":"Gibous Snake Cross Neck Belt 2way",
+	"slug":"gibous-snake-cross-neck-belt-2way",
 	"description":"<div><p><span>A new top from gibous is now available♛</span></p><p><br/></p><p><span>This top has a cute vintage finish and makes you look stylish.</span></p><p><br/></p><p><span>The waist has darts, making it look slimmer!!</span></p><p><br/></p><p><span>The belt is removable, so you can change the look to your liking☑</span></p><p><br/></p><p><span>The sleeves have thumb holes so you can put your fingers through them.</span></p><p><br/></p><p><span>The snake cross embroidery is a nice touch. Don't miss this chance to get your hands on one.</span></p><p><br/></p><p><span>[Material]</span></p><p><br/></p><p><span>82% cotton, 13% polyester, 5% polyurethane</span></p></div>",
 	"price":23200,
-	"imagePaths":["9C9AAE10-49F3-400D-983D-4FE2386EEE5C.jpg","7A45546F-9010-45EE-9B9B-DE20C1C50E28.jpg","8855BAE0-3503-442E-B826-3C6674C79EB6.jpg","B56B3D0F-5DB2-447F-B0B8-D8ACF5F70589.jpg"],
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "material", "value": "cotton" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "polyurethane" },
+			{ "name": "brand", "value": "Gibous" }
+	],
+	"imagePaths":["snake_cross_neck_belt_1.jpg","snake_cross_neck_belt_2.jpg","snake_cross_neck_belt_3.jpg","snake_cross_neck_belt_4.jpg"],
 	"categories":["top","women"],
-	"extra":"Here's the real web shop for Gibous Snake Cross Neck Belt 2way: <a href=\"https://gibous.store/en/products/gibous-snake-cross-neck-belt-2way\">https://gibous.store/en/products/gibous-snake-cross-neck-belt-2way</a>"
+	"emailMessage":"Here's the real web shop for Gibous Snake Cross Neck Belt 2way: <a href=\"https://gibous.store/en/products/gibous-snake-cross-neck-belt-2way\">https://gibous.store/en/products/gibous-snake-cross-neck-belt-2way</a>"
 },
 {
 	"id":35,
 	"name":"Gibous Logo Jersey Scorpion black purple Tops",
+	"slug":"gibous-logo-jersey-scorpion-black-purple-tops",
 	"description":"<div><p> Introducing a new jersey from gibous!</p><p> A track jacket set that is sure to be a trend this season!</p><p> We have created this in a new color based on the popular LHP collaboration jersey design.</p><p> The gibous brand logo lines are applied.</p><p> The \"G\" on the zipper is also a key point.</p><p> A trendy piece that is easy to move in and has a sophisticated feel.</p><p> This is a unisex item that can be worn loosely by both men and women in a masculine style.</p><p> It has a dry touch and is resistant to wrinkles and dust.</p><p>The comfortable jersey material is sure to be useful all year round.</p><p> The gentle feel of jersey material on the skin,</p><p> It is lightweight and stretchy, so it does not restrict movement and can be worn stress-free.</p><p> The pockets have zippers so you don't have to worry about dropping them.</p><p> Top and bottom set</p><p>Sweatshirt and tracksuit pants</p><p>Denim and track jacket</p><p><b>【material】</b></p><p> 95% polyester, 5% polyurethane</p><p> <b>【size】</b></p><p> Medium size</p><p> Length: 69cm</p><p> Width: 66cm</p><p> Shoulder width: 54cm</p><p> Sleeve length: 61cm</p><p> Large size</p><p> Length: 74cm</p><p> Width: 70cm</p><p> Shoulder width: 56cm</p><p> Sleeve length: 64cm</p></div>",
 	"price":22595,
-	"imagePaths":["78CFF5D2-A0B0-4C35-B557-82E80ED15E6C.jpg","LINE_ALBUM_2023_9_x_M__230928_1.jpg"],
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "style", "value": "track suit" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "polyurethane" },
+			{ "name": "brand", "value": "Gibous" }
+	],
+	"imagePaths":["gibous_jersey_black_purple_1.jpg","gibous_jersey_black_purple_2.jpg","gibous_jersey_black_purple_3.jpg","gibous_jersey_black_purple_4.jpg"],
 	"categories":["shirt","jacket","men","women"],
-	"extra":"Here's the real web shop for Gibous Logo Jersey Scorpion black purple Tops: <a href=\"https://gibous.store/en/products/gibous-logo-jersey-scorpion-black-purple\">https://gibous.store/en/products/gibous-logo-jersey-scorpion-black-purple</a>"
+	"emailMessage":"Here's the real web shop for Gibous Logo Jersey Scorpion black purple Tops: <a href=\"https://gibous.store/en/products/gibous-logo-jersey-scorpion-black-purple\">https://gibous.store/en/products/gibous-logo-jersey-scorpion-black-purple</a>"
+},
+{
+	"id":36,
+	"name":"CG104 Men's Leather Belt In A Fancy Design",
+	"slug":"mens-leather-belt-fancy-design",
+	"description":"<div><p>CG104 Men Leather Belt in Unusual Design</p><div><ul><li>Fashionable belt by Cipo &amp; Baxx for Men</li><li>Made of pure leather, robustly crafted</li><li>\"Easy to attach with a pin buckle\"</li><li>Versatile to combine in a two-color design</li><li>Ideally suited for skirts and trousers</li><li>Width: 3.8cm</li></ul></div><div>This trendy belt from Cipo &amp; Baxx impresses with its unusual design. The classic pin buckle rounds off the design perfectly and at the same time ensures a secure hold. The belt can be combined in many ways and skillfully enhances any outfit.</div></div>",
+	"price":21200,
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "85", "stock": 10 },
+			{ "name": "90", "stock": 10 },
+			{ "name": "95", "stock": 10 },
+			{ "name": "100", "stock": 10 },
+			{ "name": "105", "stock": 10 },
+			{ "name": "110", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "waist size", "value": "85" },
+			{ "name": "waist size", "value": "90" },
+			{ "name": "waist size", "value": "95" },
+			{ "name": "waist size", "value": "100" },
+			{ "name": "waist size", "value": "105" },
+			{ "name": "waist size", "value": "110" },
+			{ "name": "style", "value": "belt" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"imagePaths":["mens_leather_belt_fancy_design_1.jpg","mens_leather_belt_fancy_design_2.jpg","mens_leather_belt_fancy_design_3.jpg"],
+	"categories":["accessory"],
+	"emailMessage":"Here's the real web shop for Men's Leather Belt In A Fancy Design: <a href=\"https://cipoandbaxx.com/en/products/cg104-mens-leather-belts-in-fancy-design\">https://cipoandbaxx.com/en/products/cg104-mens-leather-belts-in-fancy-design</a>"
+},
+{
+	"id":37,
+	"name":"Y2K Belts Black Denim Leg Covers",
+	"slug":"y2k-belts-black-denim-leg-covers",
+	"description":"<p>Introducing Y2K Belts Black Denim Leg Covers!</p><p>Upgrade your style with these trendy leg covers.</p><p>Made with durable black denim and featuring stylish Y2K belts, they are the perfect accessory to complete any outfit.</p><p>Don't miss out on this must-have fashion statement!</p>",
+	"price":8900,
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "leg warmers" },
+			{ "name": "material", "value": "denim" },
+			{ "name": "brand", "value": "Coquette" }
+	],
+	"imagePaths":["y2k_belts_1.jpg","y2k_belts_2.jpg","y2k_belts_3.jpg","y2k_belts_4.jpg"],
+	"categories":["legwear","women"],
+	"emailMessage":"Here's the real web shop for Y2K Belts Black Denim Leg Covers: <a href=\"https://bycoquette.com/products/y2k-belts-black-denim-leg-covers\">https://bycoquette.com/products/y2k-belts-black-denim-leg-covers</a>"
+},
+{
+	"id":38,
+	"name":"Soft Goth Punk Sweater",
+	"slug":"soft-goth-punk-sweater",
+	"description":"<p>Introducing our Soft Goth Punk Sweater - the perfect combination of softness, edginess, and attitude.</p><p>Made with high-quality materials, this sweater will keep you comfortable and stylish all day long.</p><p>Show off your unique style and embrace your inner punk with confidence.</p>",
+	"price":14000,
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "grey", "stock": 10 },
+			{ "name": "red", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "style", "value": "sweater" },
+			{ "name": "brand", "value": "Coquette" }
+	],
+	"imagePaths":["soft_goth_punk_sweater_1.jpg","soft_goth_punk_sweater_2.jpg","soft_goth_punk_sweater_3.jpg","soft_goth_punk_sweater_4.jpg"],
+	"categories":["shirt","top","women"],
+	"emailMessage":"Here's the real web shop for Soft Goth Punk Sweater: <a href=\"https://bycoquette.com/products/soft-goth-punk-sweater\">https://bycoquette.com/products/soft-goth-punk-sweater</a>"
+},
+{
+	"id":39,
+	"name":"Dark Punk Studded Cap",
+	"slug":"dark-punk-studded-cap",
+	"description":"<div><p>Ironhorn -&nbsp;Dark Punk black baseball cap with rings, hanging chains and safety pins</p><ul><li>Baseball style cap</li><li>Brushed pain texture</li><li>Faux leather on the brim</li><li>Piered brim edge with rings and hanging chains</li><li>Zipper design at the front with Devil Fashion logo pull and safety pins</li><li>Safety on the sides</li><li>Adjustable strap at the back</li><li>One size fits 55-60cm circumference</li><li>90%polyester, 8%rayon, 2%viscose</li></ul></div>",
+	"price":14590,
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "baseball cap" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "rayon" },
+			{ "name": "material", "value": "viscose" },
+			{ "name": "brand", "value": "Fantasmagoria" }
+	],
+	"imagePaths":["studded_cap_1.jpg","studded_cap_2.jpg","studded_cap_3.jpg"],
+	"categories":["accessory"],
+	"emailMessage":"Here's the real web shop for Dark Punk Studded Cap: <a href=\"https://fantasmagoria.shop/dark-punk-studded-cap-as264\">https://fantasmagoria.shop/dark-punk-studded-cap-as264</a>"
+},
+{
+	"id":40,
+	"name":"Moonlit Meadow Backpack",
+	"slug":"moonlit-meadow-backpack",
+	"description":"<div><p>Moonlit Meadow - women's Gothic witchy blue velvet embroidered backpack</p><ul><li>Deep midnight blue velvet with silver metallic celestial embroidery</li><li>Large backpack style with adjustable shoulder straps</li><li>Main compartment secured with magnetic fastening and drawstring closure</li><li>Side pockets with drawstring closures; back zip closure</li><li>Internal storage: zip pocket + 2 patch pockets</li><li>Satin tassels and twisted cording, crescent moon-shaped zip pulls</li><li>Silver metal details, Restyle logo plaque on the back, branded internal patch</li><li>Contrast trim in black PU leather for durability and style</li><li>Material: 100% polyester; 100% polyurethane</li></ul><br><p>&nbsp;DIMENSIONS:</p><ul><li>Height: 43 cm (16.93 in)</li><li>Width: 45 cm (17.72 in)</li><li>Depth: 13 cm (5.12 in)</li></ul></div>",
+	"price":35600,
+	"defaultStock": 10,
+	"searchTags": [
+			{ "name": "style", "value": "backpack" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "polyurethane" },
+			{ "name": "brand", "value": "Fantasmagoria" }
+	],
+	"imagePaths":["moonlit_backpack_1.jpg","moonlit_backpack_2.jpg","moonlit_backpack_3.jpg","moonlit_backpack_4.jpg"],
+	"categories":["accessory"],
+	"emailMessage":"Here's the real web shop for REFLEM High-Neck Zip-Up Hoodie with Patched Belt: <a href=\"https://fantasmagoria.shop/moonlit-meadow-backpack\">https://fantasmagoria.shop/moonlit-meadow-backpack</a>"
+},
+{
+	"id":41,
+	"name":"Sacred Rose Shoulder Bag",
+	"slug":"sacred-rose-shoulder-bag",
+	"description":"<div><h2>Sacred Rose - women's Gothic black faux leather bag with stylized cathedral rosetta window design</h2><ul><li>Intricate laser-cut cathedral rosetta window design&nbsp;with topstitch details</li><li>Stained glass look underlayer in blues and purples</li><li>Structured, 3D ornamental shape</li><li>Magnetic fastening to main compartment</li><li>Back pocket + internal zip pocket</li><li>Detachable shoulder strap – wear as a handbag or shoulder bag</li><li>Material: 100% polyurethane, lining: 100% polyester</li></ul></div>",
+	"price":41000,
+	"discount": 6150,
+	"defaultStock": 1,
+	"searchTags": [
+			{ "name": "style", "value": "shoulder bag" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "polyurethane" },
+			{ "name": "brand", "value": "Fantasmagoria" }
+	],
+	"imagePaths":["sacred_rose_shoulder_bag_1.jpg","sacred_rose_shoulder_bag_2.jpg","sacred_rose_shoulder_bag_3.jpg","sacred_rose_shoulder_bag_4.jpg"],
+	"categories":["accessory"],
+	"emailMessage":"Here's the real web shop for Sacred Rose Shoulder Bag: <a href=\"https://fantasmagoria.shop/sacred-rose-shoulder-bag\">https://fantasmagoria.shop/sacred-rose-shoulder-bag</a>"
+},
+{
+	"id":42,
+	"name":"REFLEM High-Neck Zip-Up Hoodie with Patched Belt",
+	"slug":"reflem-high-neck-zip-up-hoodie-patched-belt",
+	"description":"<div>This high-neck zip-up hoodie with a patchwork belt is now in stock from REFLEM.<div><br><div>This piece features a patchwork design, an attached belt, and an exquisitely voluminous high-neck hood. The metal parts complement the monotone color scheme, and the logo embroidery exudes REFLEM's unique flair with its charming details. This zip-up hoodie can be worn unisex.</div><br><div><span>※</span>Made from the same material as the 2-way wide denim cargo pants (reference number: RF25-C07/RF25-C34), we recommend wearing them as a set.</div><br><div>Details:</div><div>■ Cargo pockets with fireman buckles on both sides.</div><div>■ Logo rivet on the left chest.</div><div>Logo embroidery on the cuffs.</div><br><div>[REFLEM]</div><div>-More than dark- A mad worldview and over-the-top silhouettes.</div><div>A genderless clothing brand that continues to convey lyrical messages through incredibly realistic designs.</div>",
+	"price":37300,
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "style", "value": "hoodie" },
+			{ "name": "style", "value": "coat" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "brand", "value": "REFLEM" }
+	],
+	"imagePaths":["high_neck_hoodie_1.jpg","high_neck_hoodie_2.jpg","high_neck_hoodie_3.jpg","high_neck_hoodie_4.jpg"],
+	"categories":["jacket","men","women"],
+	"emailMessage":"Here's the real web shop for REFLEM High-Neck Zip-Up Hoodie with Patched Belt: <a href=\"https://zozo.jp/shop/gostardefuga/goods-sale/96704500/\">https://zozo.jp/shop/gostardefuga/goods-sale/96704500/</a>"
+},
+{
+	"id":43,
+	"name":"CJ276 Navy Blue Men's Jacket",
+	"slug":"cj276-navyblue-mens-jacket",
+	"description":"<div><p>CJ276 navyblue men jacket</p><p>The men's Softshell jacket from the CIPO &amp; BAXX brand is ideal for spring, autumn and winter. Due to its breathable technology, the jacket can be worn in almost every season. In addition, this jacket is wind, water and cold repellent.<br><br>(Color deviations through different monitor settings and lighting conditions possible when taking pictures)</p></div>",
+	"price":65400,
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "S", "stock": 10 },
+			{ "name": "M", "stock": 10 },
+			{ "name": "L", "stock": 10 },
+			{ "name": "XL", "stock": 10 },
+			{ "name": "2XL", "stock": 10 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "S" },
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "size", "value": "XL" },
+			{ "name": "size", "value": "XXL" },
+			{ "name": "brand", "value": "Cipo & Baxx" }
+	],
+	"discount": 6540,
+	"imagePaths":["navyblue_mens_jacket_1.jpg","navyblue_mens_jacket_2.jpg","navyblue_mens_jacket_3.jpg","navyblue_mens_jacket_4.jpg"],
+	"categories":["men","jacket"],
+	"emailMessage":"Here's the real web shop for Navy Blue Men's Jacket: <a href=\"https://cipoandbaxx.com/en/products/cj276-navyblue-men-jacket\">https://cipoandbaxx.com/en/products/cj276-navyblue-men-jacket</a>"
+},
+{
+	"id":44,
+	"name":"REFLEM 2-Way Denim Shoulder Bag",
+	"slug":"reflem-denim-shoulder-bag",
+	"description":"<div><p>Introducing a processed denim 2-way shoulder bag from REFLEM.</p><br><p>This eye-catching 2-way shoulder bag embodies REFLEM's signature gimmick and presence.</p><p>Crafted from the same thick denim as the brand's popular denim cargo items, it creates a tough, three-dimensional silhouette. The unique front design is like a jacket turned bag, with 10 bold pockets, combining functionality and fashion.</p><br><p>The shoulder strap is detachable and adjustable in length. The 2-way design allows it to be used as a handbag or a crossbody bag, allowing you to style it however you like. The back features a practical zip pocket. It also features an interior zip pocket and patch pocket, providing ample storage for everyday use.</p><br><p>The wash process creates a realistic faded look, and the metal parts, eyelets, and lace-up details create a rugged look that's characteristic of REFLEM. It pairs well with a wide range of styles, from street style to modern and everyday chic.</p><br><p><b>*Before you purchase*</b></p><br><p>In order to make our products available to as many customers as possible, we limit purchases to two per product per person.</p></div>",
+	"price":36500,
+	"variants": [{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "#686868", "stock": 2 },
+			{ "name": "#6f8ca0", "stock": 2 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "style", "value": "shoulder bag" },
+			{ "name": "material", "value": "denim" },
+			{ "name": "brand", "value": "REFLEM" }
+	],
+	"imagePaths":["reflem_denim_shoulder_bag_1.jpg","reflem_denim_shoulder_bag_2.jpg","reflem_denim_shoulder_bag_3.jpg","reflem_denim_shoulder_bag_4.jpg","reflem_denim_shoulder_bag_5.jpg","reflem_denim_shoulder_bag_6.jpg","reflem_denim_shoulder_bag_7.jpg"],
+	"categories":["accessory"],
+	"emailMessage":"Here's the real web shop for REFLEM 2-Way Denim Shoulder Bag: <a href=\"https://www.acrotokyo.com/c/new/rf25-i10\">https://www.acrotokyo.com/c/new/rf25-i10</a>"
+},
+{
+	"id":45,
+	"name":"REFLEM English Lettering Printed Zip-Up Hoodie with Fur",
+	"slug":"reflem-printed-zip-up-hoodie-fur",
+	"description":"<div><p>A fur-trimmed zip-up hoodie featuring an eye-catching full front print.</p><p>The gothic-style artwork pairs perfectly with grunge and Y2K aesthetics, making it a standout piece.</p><p>Available in a unisex size range.</p><p>※ Size M has a fit designed for women.</p><p>※ Size L is a standard unisex fit.</p><br><br><p>《Details》</p><p>■ Made with 450g fleece lining. (The sturdy fabric helps maintain a clean, well-defined silhouette.)</p><p>■ Detachable fur.</p><p>■ REFLEM original zipper tab.</p></div>",
+	"price":33500,
+	"variants": [{
+		"groupName": "size",
+		"type": "text",
+		"variants": [
+			{ "name": "M", "stock": 1 },
+			{ "name": "L", "stock": 1 }
+		]
+	},
+	{
+		"groupName": "color",
+		"type": "color",
+		"variants": [
+			{ "name": "black", "stock": 1 },
+			{ "name": "white", "stock": 1 }
+		]
+	}],
+	"searchTags": [
+			{ "name": "size", "value": "M" },
+			{ "name": "size", "value": "L" },
+			{ "name": "material", "value": "polyester" },
+			{ "name": "material", "value": "polyurethane" },
+			{ "name": "material", "value": "cotton" },
+			{ "name": "brand", "value": "REFLEM" }
+	],
+	"discount": 3510,
+	"imagePaths":["reflem_printed_zip_up_hoodie_fur_1.jpg","reflem_printed_zip_up_hoodie_fur_2.jpg","reflem_printed_zip_up_hoodie_fur_3.jpg","reflem_printed_zip_up_hoodie_fur_4.jpg","reflem_printed_zip_up_hoodie_fur_5.jpg","reflem_printed_zip_up_hoodie_fur_6.jpg"],
+	"categories":["jacket","shirt"],
+	"emailMessage":"Here's the real web shop for REFLEM English Lettering Printed Zip-Up Hoodie with Fur: <a href=\"https://acrotokyo-global.com/goods_en_USD_1127.html\">https://acrotokyo-global.com/goods_en_USD_1127.html</a>"
 }]
