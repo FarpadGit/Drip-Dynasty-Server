@@ -111,6 +111,8 @@ public class Product {
 	@Transient
 	public static final String imageUploadDirectory = "src/main/resources/static/" + imageRestEndpointPath;
 	@Transient
+	public static final String thumbnailRestEndpointPath = "images/thumbnail/";
+	@Transient
 	public ProductFormData asClientSide(String serverRootPath) {
 		Gson gson = new Gson();
 		ProductFormData p = new ProductFormData();

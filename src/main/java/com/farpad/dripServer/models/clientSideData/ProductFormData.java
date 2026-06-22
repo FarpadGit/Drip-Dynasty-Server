@@ -51,4 +51,9 @@ public class ProductFormData {
         Gson gson = new Gson();
         return this.getSearchTagsJson().stream().map(tag -> gson.fromJson(tag, Product.SearchTag.class)).toList();
     }
+
+    public List<String> getImageThumbnails() {
+	    if(this.imagePaths == null) return List.of();
+        return this.getImagePaths().stream().map(path -> path.replace(Product.imageRestEndpointPath, Product.thumbnailRestEndpointPath)).toList();
+    }
 }
