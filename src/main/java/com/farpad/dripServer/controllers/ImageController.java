@@ -54,7 +54,7 @@ public class ImageController {
         try {
             int width = Integer.parseInt(w);
             int height = Integer.parseInt(h);
-            Path filePath = Paths.get(Product.imageUploadDirectory, id, filename);
+            Path filePath = Paths.get(Product.thumbnailUploadDirectory, id, filename);
             Resource resource = new UrlResource(filePath.toUri());
 
             if (!resource.exists()) {

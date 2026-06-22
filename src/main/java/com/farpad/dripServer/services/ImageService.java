@@ -1,6 +1,7 @@
 package com.farpad.dripServer.services;
 
 import com.farpad.dripServer.models.Product;
+import net.coobird.thumbnailator.Thumbnails;
 import org.apache.commons.io.FileUtils;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
@@ -12,6 +13,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -21,7 +23,15 @@ public class ImageService {
         try {
             Path srcDirectoryPath = Path.of("src/main/resources/static/dbseed/images");
             Path destDirectoryPath = Path.of("src/main/resources/static/images/products");
+            java.io.File imagesDirectory = new UrlResource(destDirectoryPath.toUri()).getFile();
+            FileUtils.cleanDirectory(imagesDirectory);
             FileUtils.copyDirectory(srcDirectoryPath.toFile(), destDirectoryPath.toFile());
+
+            Path srcDirectoryPath2 = Path.of("src/main/resources/static/dbseed/thumbnails");
+            Path destDirectoryPath2 = Path.of("src/main/resources/static/images/thumbnail");
+            java.io.File thumbnailDirectory = new UrlResource(destDirectoryPath2.toUri()).getFile();
+            FileUtils.cleanDirectory(thumbnailDirectory);
+            FileUtils.copyDirectory(srcDirectoryPath2.toFile(), destDirectoryPath2.toFile());
         } catch (IOException ignored) {
         }
     }
@@ -37,15 +47,30 @@ public class ImageService {
             Path directoryPath = Path.of(uploadDirectory);
             Path filePath = directoryPath.resolve(uniqueFileName);
 
-            if (!Files.exists(directoryPath)) {
-                Files.createDirectories(directoryPath);
-            }
+            if (!Files.exists(directoryPath)) Files.createDirectories(directoryPath);
 
             Files.copy(imageFile.getInputStream(), filePath, StandardCopyOption.REPLACE_EXISTING);
+            saveThumbnailToStorage(
+                    Product.thumbnailUploadDirectory + directoryPath.getFileName().toString() + "/",
+                    uniqueFileName,
+                    uploadDirectory  + "/" + uniqueFileName);
 
             return Product.imageRestEndpointPath + directoryPath.getFileName().toString() + "/" + uniqueFileName;
         } catch (IOException | NullPointerException e) {
             return "#Invalid";
+        }
+    }
+
+    // Create thumbnail and save to local directory
+    public void saveThumbnailToStorage(String filePath, String filename, String baseImagePath) {
+        try {
+            Path path = Path.of(filePath);
+            if (!Files.exists(path)) Files.createDirectories(path);
+            Thumbnails.of(baseImagePath)
+                    .size(280, 280)
+                    .toFile(filePath + filename);
+
+        } catch (IOException | NullPointerException ignored) {
         }
     }
 
@@ -76,11 +101,14 @@ public class ImageService {
     }
 
     public void deleteAllImages() {
-        try {
-            Path directoryPath = Path.of("src/main/resources/static/images/products");
-            java.io.File imagesDirectory = new UrlResource(directoryPath.toUri()).getFile();
-            FileUtils.cleanDirectory(imagesDirectory);
-        } catch (IOException ignored) {
-        }
+            List.of("src/main/resources/static/images/products", "src/main/resources/static/images/thumbnail")
+                .forEach(dir -> {
+                    try {
+                        Path directoryPath = Path.of(dir);
+                        java.io.File imagesDirectory = new UrlResource(directoryPath.toUri()).getFile();
+                        FileUtils.cleanDirectory(imagesDirectory);
+                    } catch (IOException ignored) {
+                    }
+                });
     }
 }

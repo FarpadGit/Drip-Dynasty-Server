@@ -137,8 +137,10 @@ public class ProductService {
         productToDelete.getFileNames().forEach(fileName-> {
             String imageFileName = Path.of(fileName).getFileName().toString();
             imageService.deleteImageFromStorage(Product.imageUploadDirectory + id, imageFileName);
+            imageService.deleteImageFromStorage(Product.thumbnailUploadDirectory + id, imageFileName);
         });
         imageService.deleteFolderFromStorage(Product.imageUploadDirectory + id);
+        imageService.deleteFolderFromStorage(Product.thumbnailUploadDirectory + id);
         productRepository.deleteById(id);
         return true;
     }

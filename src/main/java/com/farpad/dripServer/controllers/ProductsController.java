@@ -113,7 +113,9 @@ public class ProductsController {
       });
 
       imagesToDelete.forEach(imagePath-> {
-        imageService.deleteImageFromStorage(Product.imageUploadDirectory + id, Path.of(imagePath).getFileName().toString());
+        String filename = Path.of(imagePath).getFileName().toString();
+        imageService.deleteImageFromStorage(Product.imageUploadDirectory + id, filename);
+        imageService.deleteImageFromStorage(Product.thumbnailUploadDirectory + id, filename);
         deletedImages.add(imagePath);
       });
 
