@@ -36,7 +36,7 @@ public class ResetController {
 
                 products.forEach(product -> {
                     product.setIsActive("true");
-                    product.setImagePaths(product.getImagePaths().stream().map(imgPath -> Product.imageUploadDirectoryAccessPath + product.getId() + '/' + imgPath).toList());
+                    product.setImagePaths(product.getImagePaths().stream().map(imgPath -> Product.imageRestEndpointPath + product.getId() + '/' + imgPath).toList());
                     Product newProduct = productService.createProduct(product);
                 });
 

@@ -43,7 +43,7 @@ public class ImageService {
 
             Files.copy(imageFile.getInputStream(), filePath, StandardCopyOption.REPLACE_EXISTING);
 
-            return Product.imageUploadDirectoryAccessPath + directoryPath.getFileName().toString() + "/" + uniqueFileName;
+            return Product.imageRestEndpointPath + directoryPath.getFileName().toString() + "/" + uniqueFileName;
         } catch (IOException | NullPointerException e) {
             return "#Invalid";
         }

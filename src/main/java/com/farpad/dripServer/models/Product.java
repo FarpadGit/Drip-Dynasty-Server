@@ -107,9 +107,9 @@ public class Product {
 	}
 
 	@Transient
-	public static final String imageUploadDirectoryAccessPath = "images/products/";
+	public static final String imageRestEndpointPath = "images/products/";
 	@Transient
-	public static final String imageUploadDirectory = "src/main/resources/static/" + imageUploadDirectoryAccessPath;
+	public static final String imageUploadDirectory = "src/main/resources/static/" + imageRestEndpointPath;
 	@Transient
 	public ProductFormData asClientSide(String serverRootPath) {
 		Gson gson = new Gson();
@@ -124,8 +124,6 @@ public class Product {
 		p.setEmailMessage(this.emailMessage);
         p.setVariants(this.variants);
         p.setSearchTags(this.searchTags);
-//		p.setVariantsJson(this.variants.isEmpty() ? new ArrayList<>() : this.variants.stream().map(gson::toJson).toList());
-//		p.setSearchTagsJson(this.searchTags.isEmpty() ? new ArrayList<>() : this.searchTags.stream().map(gson::toJson).toList());
 		p.setDefaultStock(this.defaultStock == null ? null : this.defaultStock.toString());
 		p.setIsActive(this.isAvailableForPurchase.toString());
 		p.setImagePaths(this.getPrefixedFileNames(serverRootPath));
