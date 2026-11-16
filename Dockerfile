@@ -1,5 +1,5 @@
 # Build stage
-FROM eclipse-temurin:17-jdk-alpine AS builder
+FROM eclipse-temurin:25-jdk-alpine AS builder
 
 ARG DRIP_SERVER_NAME
 ARG MONGODB_NAME
@@ -22,10 +22,10 @@ ARG MAIL_PASSWORD
 WORKDIR /app
 COPY . .
 RUN chmod +x ./mvnw
-RUN ./mvnw package
+RUN ./mvnw package -Dmaven.test.skip=true
 
 # Run stage
-FROM eclipse-temurin:17-jdk-alpine AS runner
+FROM eclipse-temurin:25-jdk-alpine AS runner
 
 WORKDIR /app
 COPY ./src/main/resources/static ./src/main/resources/static

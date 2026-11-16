@@ -67,14 +67,14 @@ public class ProductsController {
   @GetMapping("/{id}")
   public ResponseEntity<ProductFormData> getProduct(@PathVariable String id) {
     Product product = productService.getProduct(id);
-    if(product == null) return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+    if(product == null) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     return new ResponseEntity<>(product.asClientSide(serverRootPath), HttpStatus.OK);
   }
 
   @GetMapping("/by-slug/{slug}")
   public ResponseEntity<ProductFormData> getProductBySlug(@PathVariable String slug) {
     Product product = productService.getProductBySlug(slug);
-    if(product == null) return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+    if(product == null) return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     return new ResponseEntity<>(product.asClientSide(serverRootPath), HttpStatus.OK);
   }
 
